@@ -139,34 +139,34 @@ class Suit:
     def count_high_card_points(self):
         self.high_card_points = 0
         # if not Config.adjust_HC_pnts_for_short_suits:
-        # for value in self.cards:
-        #     if value > 10:
-        #         self.high_card_points += value - 10
+        for value in self.cards:
+            if value > 10:
+                self.high_card_points += value - 10
 
-        # this gets a little complex because high card points are affected by suit length
-        if len(self.cards) >= 3:  # can use A K Q J
-            for value in self.cards:
-                if value >= 11:
-                    print(value)
-                    self.high_card_points += value - 10
-
-        elif len(self.cards) == 2:
-            for value in self.cards:
-                if value >= 13:
-                    print(value)
-                    self.high_card_points += value - 10
-                elif value == 4 and self.high_card_points == 4:
-                    self.high_card_points += 2
-                elif value == 3 and self.high_card_points == 3:
-                    self.high_card_points += 1
-
-        elif len(self.cards) == 1:
-            if 14 in self.cards:
-                self.high_card_points += 4
-            elif 13 in self.cards:
-                self.high_card_points += 2
-            elif 12 in self.cards:
-                self.high_card_points += 1
+        # # this gets a little complex because high card points are affected by suit length
+        # if len(self.cards) >= 3:  # can use A K Q J
+        #     for value in self.cards:
+        #         if value >= 11:
+        #             print(value)
+        #             self.high_card_points += value - 10
+        #
+        # elif len(self.cards) == 2:
+        #     for value in self.cards:
+        #         if value >= 13:
+        #             print(value)
+        #             self.high_card_points += value - 10
+        #         elif value == 4 and self.high_card_points == 4:
+        #             self.high_card_points += 2
+        #         elif value == 3 and self.high_card_points == 3:
+        #             self.high_card_points += 1
+        #
+        # elif len(self.cards) == 1:
+        #     if 14 in self.cards:
+        #         self.high_card_points += 4
+        #     elif 13 in self.cards:
+        #         self.high_card_points += 2
+        #     elif 12 in self.cards:
+        #         self.high_card_points += 1
 
     def count_distribution_points(self):
         self.distribution_points = 0
