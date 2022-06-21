@@ -1,0 +1,88 @@
+{
+  "table id": {
+    "0": "or2i"
+  },
+  "bid": {
+    "0": "3nt"
+  },
+  "level": {
+    "0": 3
+  },
+  "strain": {
+    "0": "no trump"
+  },
+  "priority": {
+    "0": 0
+  },
+  "supporting": {
+    "0": "none"
+  },
+  "point type": {
+    "0": "hcp"
+  },
+  "minimum points": {
+    "0": 25
+  },
+  "maximum points": {
+    "0": 27
+  },
+  "shape": {
+    "0": "bal"
+  },
+  "stopped suits": {
+    "0": 4
+  },
+  "convention used": {
+    "0": "nat"
+  },
+  "next table": {
+    "0": "or2h"
+  },
+  "c length": {
+    "0": 2
+  },
+  "c protected honors": {
+    "0": 1
+  },
+  "c high honors": {
+    "0": 1
+  },
+  "d length": {
+    "0": 2
+  },
+  "d protected honors": {
+    "0": 1
+  },
+  "d high honors": {
+    "0": 1
+  },
+  "h length": {
+    "0": 2
+  },
+  "h protected honors": {
+    "0": 1
+  },
+  "h high honors": {
+    "0": 1
+  },
+  "s length": {
+    "0": 2
+  },
+  "s protected honors": {
+    "0": 1
+  },
+  "s high honors": {
+    "0": 1
+  },
+  "description": {
+    "0": "25 to 27 high card points, balanced hand, stoppers in 4 suits"
+  },
+  "references": {
+    "0": ""
+  },
+  "comments": {
+    "0": "values not verified, comments not verified, references not verified, link not verified"
+  }
+
+
+}

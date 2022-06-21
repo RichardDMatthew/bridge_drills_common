@@ -1,0 +1,147 @@
+{
+  "table id": {
+    "0": "or3c",
+    "1": "or3c",
+    "2": "or3c"
+  },
+  "bid": {
+    "0": "4s",
+    "1": "4h",
+    "2": "p"
+  },
+  "level": {
+    "0": 4,
+    "1": 4,
+    "2": 0
+  },
+  "strain": {
+    "0": "spades",
+    "1": "hearts",
+    "2": "none"
+  },
+  "priority": {
+    "0": 1,
+    "1": 1,
+    "2": 0
+  },
+  "supporting": {
+    "0": "spades",
+    "1": "hearts",
+    "2": "none"
+  },
+  "point type": {
+    "0": "dist",
+    "1": "dist",
+    "2": "dist"
+  },
+  "minimum points": {
+    "0": 14,
+    "1": 14,
+    "2": 13
+  },
+  "maximum points": {
+    "0": 50,
+    "1": 50,
+    "2": 13
+  },
+  "shape": {
+    "0": "skew",
+    "1": "skew",
+    "2": "skew"
+  },
+  "stopped suits": {
+    "0": 0,
+    "1": 0,
+    "2": 0
+  },
+  "stopped other suits": {
+    "0": 0,
+    "1": 0,
+    "2": 0
+  },
+  "convention": {
+    "0": "none",
+    "1": "none",
+    "2": "none"
+  },
+  "next table": {
+    "0": "or4a",
+    "1": "or4a",
+    "2": "or4a"
+  },
+  "c length": {
+    "0": 0,
+    "1": 0,
+    "2": 0
+  },
+  "c protected honors": {
+    "0": 0,
+    "1": 0,
+    "2": 0
+  },
+  "c high honors": {
+    "0": 0,
+    "1": 0,
+    "2": 0
+  },
+  "d length": {
+    "0": 0,
+    "1": 0,
+    "2": 0
+  },
+  "d protected honors": {
+    "0": 0,
+    "1": 0,
+    "2": 0
+  },
+  "d high honors": {
+    "0": 0,
+    "1": 0,
+    "2": 0
+  },
+  "h length": {
+    "0": 0,
+    "1": 5,
+    "2": 0
+  },
+  "h protected honors": {
+    "0": 0,
+    "1": 0,
+    "2": 0
+  },
+  "h high honors": {
+    "0": 0,
+    "1": 0,
+    "2": 0
+  },
+  "s length": {
+    "0": 5,
+    "1": 0,
+    "2": 0
+  },
+  "s protected honors": {
+    "0": 0,
+    "1": 0,
+    "2": 0
+  },
+  "s high honors": {
+    "0": 0,
+    "1": 0,
+    "2": 0
+  },
+  "description": {
+    "0": "14+ points",
+    "1": "14+ points",
+    "2": "only 13 points"
+  },
+  "references": {
+    "0": "book 1 page 155",
+    "1": "book 1 page 155",
+    "2": "book 1 page 155"
+  },
+  "comments": {
+    "0": "",
+    "1": "",
+    "2": ""
+  }
+}

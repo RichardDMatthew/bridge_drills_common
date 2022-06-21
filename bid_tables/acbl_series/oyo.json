@@ -1,0 +1,86 @@
+{
+  "table id": {
+    "0": "oyo"
+  },
+  "bid": {
+    "0": "p"
+  },
+  "level": {
+    "0": 0
+  },
+  "strain": {
+    "0": "none"
+  },
+  "priority": {
+    "0": 0
+  },
+  "supporting": {
+    "0": "none"
+  },
+  "point type": {
+    "0": "dist"
+  },
+  "minimum points": {
+    "0": 0
+  },
+  "maximum points": {
+    "0": 5
+  },
+  "shape": {
+    "0": "skew"
+  },
+  "stopped suits": {
+    "0": 0
+  },
+  "convention used": {
+    "0": "none"
+  },
+  "next table": {
+    "0": "none"
+  },
+  "c length": {
+    "0": 0
+  },
+  "c protected honors": {
+    "0": 0
+  },
+  "c high honors": {
+    "0": 0
+  },
+  "d length": {
+    "0": 0
+  },
+  "d protected honors": {
+    "0": 0
+  },
+  "d high honors": {
+    "0": 0
+  },
+  "h length": {
+    "0": 0
+  },
+  "h protected honors": {
+    "0": 0
+  },
+  "h high honors": {
+    "0": 0
+  },
+  "s length": {
+    "0": 0
+  },
+  "s protected honors": {
+    "0": 0
+  },
+  "s high honors": {
+    "0": 0
+  },
+  "description": {
+    "0": "0-5 distribution points, no available bids"
+  },
+  "references": {
+    "0":  "book 1 page 96"
+  },
+  "comments": {
+    "0": ""
+  }
+}

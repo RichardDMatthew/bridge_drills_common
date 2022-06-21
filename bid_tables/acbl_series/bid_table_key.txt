@@ -1,0 +1,45 @@
+or1 - opening bid                   - passed
+
+or2a - respond to 3 no trump
+or2b - respond to 2 clubs
+or2c - respond to 2 no trump
+or2d - respond to 1 no trump        - passed
+or2e - respond to 1 of major        - passed
+or2f - respond to 1 of minor        - passed
+or2g - respond to 4 level preempt
+or2h - respond to 3 level preempt
+or2i - respond to 2 level preempt
+
+or3a - opener rebid after raised major to 2 level
+or3b - opener rebid after raised minor to 2 level
+or3c - opener rebid after raised suit to 3 level
+or3d - opener rebid after new suit at 1 level
+or3e - opener rebid after new suit at the 2 level
+or3f - opener rebid after 1 no trump
+or3g - opener rebid after 2 no trump
+or3h - opener rebid after 4 major response to 1nt
+or3i - opener rebid after 3 major response to 1nt
+or3j - opener rebid after stayman
+or3k - opener rebid after jacoby transfer
+or3l - opener rebid after jacoby sign off
+
+
+or4a - responder rebid after opener rebid to stayman
+
+oyo - on your own, during competitive bidding when partner passes without setting a new bid table, keeps bidder in play
+
+
+-----------------------
+shapes:
+"any" - shape doesn't matter for bid candidate
+"bal" - shape
+"bal flat" - 4,3,3,3
+"skewed"
+"two suited"
+
+some are requirements for bid candidate, others are descriptive
+"any" and "bal" are requirements for bid candidates
+"bal flat", "skewed" and "two suited" may only be descriptive
+
+choices that probably belong on a convention card
+
