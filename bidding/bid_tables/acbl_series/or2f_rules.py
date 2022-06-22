@@ -1,5 +1,5 @@
 # with 15-17 HCP and a balanced hand, which has priority, a 5 card major or no trump?
-from framework.bid_stack import Bid
+from bidding.bid_stack import Bid
 from cards.suit import Strains, Suits
 
 

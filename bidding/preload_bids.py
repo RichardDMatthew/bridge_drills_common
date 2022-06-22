@@ -145,50 +145,51 @@ def respond_3h():
 
 
 def preload_bids(table_id, bids, hand):
-    if table_id == 'or1':
-        # no preload
-    elif table_id == 'or2a':
-        # preload 3 no trump
-    elif table_id == 'or2b':
-        # preload 2 clubs
-    elif table_id == 'or2c':
-        # preload 2 no trump
-    elif table_id == 'or2d':
-        # preload 1 no trump
-    elif table_id == 'or2e':
-        # preload 1 major
-    elif table_id == 'or2f':
-        # preload 1 minor
-    elif table_id == 'or2g':
-        # preload 4 level preempt
-    elif table_id == 'or2h':
-        # preload 3 level preempt
-    elif table_id == 'or2i':
-        # preload 2 level preempt
-    elif table_id == 'or3a':
-        # preload 1 major then 2 of same major
-    elif table_id == 'or3b':
-        # preload 1 minor then 2 of same minor
-    elif table_id == 'or3c':
-        # preload 1 suit then 3 of same suit
-    elif table_id == 'or3d':
-        # preload 1 suit then new suit at 1 level
-    elif table_id == 'or3e':
-        # preload 1 suit then new suit at 2 level
-    elif table_id == 'or3f':
-        # preload 1 suit then 1 no trump
-    elif table_id == 'or3g':
-        # preload 1 suit then 2 no trump
-    elif table_id == 'or3h':
-        # preload 1 no trump then 4 of major
-    elif table_id == 'or3i':
-        # preload 1 no trump then 3 of major
-    elif table_id == 'or3j':
-        # preload 1 no trump then stayman
-    elif table_id == 'or3k':
-        # preload 1 no trump then jacoby transfer
-    elif table_id == 'or3l':
-        # preload 1 no trump then jacoby sign off
-
-    return bids, hand
+    pass
+    # if table_id == 'or1':
+    #     # no preload
+    # elif table_id == 'or2a':
+    #     # preload 3 no trump
+    # elif table_id == 'or2b':
+    #     # preload 2 clubs
+    # elif table_id == 'or2c':
+    #     # preload 2 no trump
+    # elif table_id == 'or2d':
+    #     # preload 1 no trump
+    # elif table_id == 'or2e':
+    #     # preload 1 major
+    # elif table_id == 'or2f':
+    #     # preload 1 minor
+    # elif table_id == 'or2g':
+    #     # preload 4 level preempt
+    # elif table_id == 'or2h':
+    #     # preload 3 level preempt
+    # elif table_id == 'or2i':
+    #     # preload 2 level preempt
+    # elif table_id == 'or3a':
+    #     # preload 1 major then 2 of same major
+    # elif table_id == 'or3b':
+    #     # preload 1 minor then 2 of same minor
+    # elif table_id == 'or3c':
+    #     # preload 1 suit then 3 of same suit
+    # elif table_id == 'or3d':
+    #     # preload 1 suit then new suit at 1 level
+    # elif table_id == 'or3e':
+    #     # preload 1 suit then new suit at 2 level
+    # elif table_id == 'or3f':
+    #     # preload 1 suit then 1 no trump
+    # elif table_id == 'or3g':
+    #     # preload 1 suit then 2 no trump
+    # elif table_id == 'or3h':
+    #     # preload 1 no trump then 4 of major
+    # elif table_id == 'or3i':
+    #     # preload 1 no trump then 3 of major
+    # elif table_id == 'or3j':
+    #     # preload 1 no trump then stayman
+    # elif table_id == 'or3k':
+    #     # preload 1 no trump then jacoby transfer
+    # elif table_id == 'or3l':
+    #     # preload 1 no trump then jacoby sign off
+    #
+    # return bids, hand
 

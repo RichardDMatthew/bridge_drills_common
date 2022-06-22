@@ -1,4 +1,4 @@
-from framework.bid_stack import Bid
+from bidding.bid_stack import Bid
 
 
 def or2d_rules(hand, bids, bid_table, candidate_list):

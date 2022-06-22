@@ -1,7 +1,7 @@
 import logging
 from copy import deepcopy
 
-from framework.bid_stack import Positions
+from bidding.bid_stack import Positions
 from cards.suit import Suit, Suits
 # from player import get_partner
 

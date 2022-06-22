@@ -1,8 +1,8 @@
 # players have hands
 import logging
 
-from framework.bid_machine import bid_machine
-from framework.bid_stack import Positions
+from bidding.bid_machine import bid_machine
+from bidding.bid_stack import Positions
 from cards.hand import Hand
 
 log = logging.getLogger('Bridge')

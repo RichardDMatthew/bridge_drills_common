@@ -1,16 +1,16 @@
 import unittest
 
-from framework.bid_machine import load_bid_table
-from framework.bid_stack import BidStack, Positions
+from bidding.bid_machine import load_bid_table
+from bidding.bid_stack import BidStack, Positions
 from cards.suit import Suits
 from players.player import Player
-from framework.preload_bids import open_1c, open_1d, open_1h, open_1s, respond_3h, respond_2d, respond_1nt, respond_2c, \
+from bidding.preload_bids import open_1c, open_1d, open_1h, open_1s, respond_3h, respond_2d, respond_1nt, respond_2c, \
     respond_1h
-from framework.preload_bids import respond_2s
+from bidding.preload_bids import respond_2s
 
 
 class TestBook1Chapter5(unittest.TestCase):
-    bid_table = load_bid_table('../bid_tables/acbl_series/')
+    bid_table = load_bid_table('../bidding/bid_tables/acbl_series/')
     dealer = Positions.NORTH
     bids = BidStack(dealer)
 

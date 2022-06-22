@@ -1,5 +1,5 @@
 
-from framework.bid_stack import Bid
+from bidding.bid_stack import Bid
 from cards.suit import Strains, Suits
 
 
