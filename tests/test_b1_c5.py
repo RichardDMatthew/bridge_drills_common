@@ -4,9 +4,9 @@ from framework.bid_machine import load_bid_table
 from framework.bid_stack import BidStack, Positions
 from cards.suit import Suits
 from players.player import Player
-from test_bids import open_1c, open_1d, open_1h, open_1s, respond_3h, respond_2d, respond_1nt, respond_2c, \
+from framework.preload_bids import open_1c, open_1d, open_1h, open_1s, respond_3h, respond_2d, respond_1nt, respond_2c, \
     respond_1h
-from test_bids import respond_2s
+from framework.preload_bids import respond_2s
 
 
 class TestBook1Chapter5(unittest.TestCase):

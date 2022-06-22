@@ -3,7 +3,8 @@ import logging
 import random
 
 from cards.hand import Hand
-from common import Suits, Positions
+from cards.suit import Suits
+from bidding.bid_stack import Positions
 
 log = logging.getLogger('Bridge')
 

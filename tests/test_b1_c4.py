@@ -5,7 +5,7 @@ from framework.bid_machine import load_bid_table
 from framework.bid_stack import BidStack, Positions
 from cards.suit import Suits
 from players.player import Player
-from test_bids import open_1c, open_1d, open_1h, open_1s
+from framework.preload_bids import open_1c, open_1d, open_1h, open_1s
 
 bridge_log = logging.getLogger('bridge.log')
 

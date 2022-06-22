@@ -1,18 +1,18 @@
 import os
 import pandas as pd
 
-# from framework.bid_stack import Bid
+# from bidding.bid_stack import Bid
 from framework.bid_stack import get_candidate_bid_value
-from bid_tables.acbl_series.or1_rules import or1_rules
-from bid_tables.acbl_series.or2d_rules import or2d_rules
-from bid_tables.acbl_series.or2e_rules import or2e_rules
-from bid_tables.acbl_series.or2f_rules import or2f_rules
-from bid_tables.acbl_series.or3a_rules import or3a_rules
-from bid_tables.acbl_series.or3b_rules import or3b_rules
-from bid_tables.acbl_series.or3c_rules import or3c_rules
-from bid_tables.acbl_series.or3d_rules import or3d_rules
-from bid_tables.acbl_series.or3f_rules import or3f_rules
-from bid_tables.acbl_series.oyo_rules import oyo_rules
+from bidding.bid_tables.acbl_series.or1_rules import or1_rules
+from bidding.bid_tables.acbl_series.or2d_rules import or2d_rules
+from bidding.bid_tables.acbl_series.or2e_rules import or2e_rules
+from bidding.bid_tables.acbl_series.or2f_rules import or2f_rules
+from bidding.bid_tables import or3a_rules
+from bidding.bid_tables import or3b_rules
+from bidding.bid_tables.acbl_series.or3c_rules import or3c_rules
+from bidding.bid_tables import or3d_rules
+from bidding.bid_tables.acbl_series.or3f_rules import or3f_rules
+from bidding.bid_tables import oyo_rules
 from cards.suit import Suits
 import logging
 

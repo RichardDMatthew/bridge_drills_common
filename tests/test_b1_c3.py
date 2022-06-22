@@ -4,7 +4,7 @@ from framework.bid_machine import load_bid_table
 from framework.bid_stack import BidStack, Positions
 from cards.suit import Suits
 from players.player import Player
-from test_bids import open_1nt
+from framework.preload_bids import open_1nt
 
 
 class TestBook1Chapter3(unittest.TestCase):
