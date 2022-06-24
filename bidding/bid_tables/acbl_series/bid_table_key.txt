@@ -22,6 +22,7 @@ or3i - opener rebid after 3 major response to 1nt
 or3j - opener rebid after stayman
 or3k - opener rebid after jacoby transfer
 or3l - opener rebid after jacoby sign off
+or3m - opener rebid after gerber
 
 
 or4a - responder rebid after opener rebid to stayman

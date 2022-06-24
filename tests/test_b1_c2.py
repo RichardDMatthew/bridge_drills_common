@@ -430,6 +430,67 @@ class TestBook1Chapter2(unittest.TestCase):
         bid = player.do_bid(self.bids, self.bid_table)
         self.assertTrue(bid.bid == '1s')
 
+    def test_bug_2(self):
+        player = Player(Positions.NORTH)
+        player.hand.suits[Suits.SPADE].cards = [14, 12, 9, 2]
+        player.hand.suits[Suits.HEART].cards = [14, 13, 5]
+        player.hand.suits[Suits.DIAMOND].cards = [7, 4]
+        player.hand.suits[Suits.CLUB].cards = [14, 13, 5, 4]
+
+        player.hand.evaluate()
+        self.assertTrue(player.hand.hcp == 20)
+        self.assertTrue(player.hand.distribution_points == 0)
+        self.assertTrue(player.hand.dist == 20)
+        self.assertTrue(player.hand.balanced)
+        bid = player.do_bid(self.bids, self.bid_table)
+        self.assertTrue(bid.bid == '2nt')
+
+    def test_bug_3(self):
+        player = Player(Positions.NORTH)
+        player.hand.suits[Suits.SPADE].cards = [14, 4]
+        player.hand.suits[Suits.HEART].cards = [13, 10, 6]
+        player.hand.suits[Suits.DIAMOND].cards = [14, 13, 7]
+        player.hand.suits[Suits.CLUB].cards = [14, 13, 10, 8, 5]
+
+        player.hand.evaluate()
+        self.assertTrue(player.hand.hcp == 21)
+        self.assertTrue(player.hand.distribution_points == 1)
+        self.assertTrue(player.hand.dist == 22)
+        self.assertTrue(player.hand.balanced)
+        bid = player.do_bid(self.bids, self.bid_table)
+        self.assertTrue(bid.bid == '2c')
+
+    def test_bug_4(self):
+        player = Player(Positions.NORTH)
+        player.hand.suits[Suits.SPADE].cards = [14, 10]
+        player.hand.suits[Suits.HEART].cards = [14, 5, 3]
+        player.hand.suits[Suits.DIAMOND].cards = [13, 12, 3]
+        player.hand.suits[Suits.CLUB].cards = [14, 13, 11, 9, 8]
+
+        player.hand.evaluate()
+        self.assertTrue(player.hand.hcp == 21)
+        self.assertTrue(player.hand.distribution_points == 1)
+        self.assertTrue(player.hand.dist == 22)
+        self.assertTrue(player.hand.balanced)
+        bid = player.do_bid(self.bids, self.bid_table)
+        self.assertTrue(bid.bid == '2c')
+
+    def test_bug_5(self):
+        player = Player(Positions.NORTH)
+        player.hand.suits[Suits.SPADE].cards = [14, 13, 10]
+        player.hand.suits[Suits.HEART].cards = [13, 8, 7, 3, 2]
+        player.hand.suits[Suits.DIAMOND].cards = [11, 9]
+        player.hand.suits[Suits.CLUB].cards = [14, 13, 12]
+
+        player.hand.evaluate()
+        self.assertTrue(player.hand.hcp == 20)
+        self.assertTrue(player.hand.distribution_points == 1)
+        self.assertTrue(player.hand.dist == 21)
+        self.assertTrue(player.hand.balanced)
+        bid = player.do_bid(self.bids, self.bid_table)
+        self.assertTrue(bid.bid == '2nt')
+
+
 
 if __name__ == '__main__':
     unittest.main()

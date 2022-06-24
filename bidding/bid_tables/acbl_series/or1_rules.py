@@ -3,11 +3,13 @@ from bidding.bid_stack import Bid
 from cards.suit import Strains, Suits
 
 
+# todo: handle 2 nt/2c like handling 1nt/1 major
 def or1_rules(hand, bids, bid_table, candidate_list):
     suit_len_dict = {'spades': len(hand.suits[Suits.SPADE].cards), 'hearts': len(hand.suits[Suits.HEART].cards),
                      'diamonds': len(hand.suits[Suits.DIAMOND].cards), 'clubs': len(hand.suits[Suits.CLUB].cards)}
     # print(suit_len_dict)
-
+    index_list = bid_table.index
+    table_offset = index_list[0]
     no_trump = False
     majors = False
     minors = False
@@ -18,32 +20,32 @@ def or1_rules(hand, bids, bid_table, candidate_list):
 
     # if there are the same bid on different levels remove the lower one
     # clubs
-    if 11 in candidate_list and 15 in candidate_list:
-        candidate_list.remove(15)
+    if table_offset + 11 in candidate_list and table_offset + 15 in candidate_list:
+        candidate_list.remove(table_offset + 15)
 
     # diamonds
-    if 10 in candidate_list and 14 in candidate_list:
-        candidate_list.remove(14)
-    if 10 in candidate_list and 18 in candidate_list:
-        candidate_list.remove(18)
-    if 14 in candidate_list and 18 in candidate_list:
-        candidate_list.remove(18)
+    if table_offset + 10 in candidate_list and table_offset + 14 in candidate_list:
+        candidate_list.remove(table_offset + 14)
+    if table_offset + 10 in candidate_list and table_offset + 18 in candidate_list:
+        candidate_list.remove(table_offset + 18)
+    if table_offset + 14 in candidate_list and table_offset + 18 in candidate_list:
+        candidate_list.remove(table_offset + 18)
 
     # hearts
-    if 9 in candidate_list and 13 in candidate_list:
-        candidate_list.remove(13)
-    if 9 in candidate_list and 17 in candidate_list:
-        candidate_list.remove(17)
-    if 13 in candidate_list and 17 in candidate_list:
-        candidate_list.remove(17)
+    if table_offset + 9 in candidate_list and table_offset + 13 in candidate_list:
+        candidate_list.remove(table_offset + 13)
+    if table_offset + 9 in candidate_list and table_offset + 17 in candidate_list:
+        candidate_list.remove(table_offset + 17)
+    if table_offset + 13 in candidate_list and table_offset + 17 in candidate_list:
+        candidate_list.remove(table_offset + 17)
 
     # spades
-    if 8 in candidate_list and 12 in candidate_list:
-        candidate_list.remove(12)
-    if 8 in candidate_list and 16 in candidate_list:
-        candidate_list.remove(16)
-    if 12 in candidate_list and 16 in candidate_list:
-        candidate_list.remove(16)
+    if table_offset + 8 in candidate_list and table_offset + 12 in candidate_list:
+        candidate_list.remove(table_offset + 12)
+    if table_offset + 8 in candidate_list and table_offset + 16 in candidate_list:
+        candidate_list.remove(table_offset + 16)
+    if table_offset + 12 in candidate_list and table_offset + 16 in candidate_list:
+        candidate_list.remove(table_offset + 16)
 
     # if there is a 1nt bid and a 5 card major, if the major is strong use it, otherwise use no trump
     one_no_trump = False
@@ -64,6 +66,17 @@ def or1_rules(hand, bids, bid_table, candidate_list):
                     break
                 else:
                     candidate_list.remove(index)
+    # there are cases where 2c and 2nt are in the candidate list - prefer 2c
+    two_club_bid = 0
+    for index in candidate_list:
+        if bid_table.at[index, 'bid'] == '2c':
+            two_club_bid = index
+            break
+
+    if two_club_bid > 0:
+        for index in candidate_list:
+            if bid_table.at[index, 'bid'] == '2nt':
+                candidate_list = [two_club_bid]
 
     # look to see if there is a no trump bid - prefers no trump over suit
     for index in candidate_list:
@@ -110,7 +123,7 @@ def or1_rules(hand, bids, bid_table, candidate_list):
                     candidate_list.remove(index)
                 elif spades and bid_table.at[index, 'strain'] == 'hearts':
                     candidate_list.remove(index)
-            elif minors:    # could be a pass
+            elif minors:  # could be a pass
                 if suit_len_dict[bid_table.at[index, 'strain']] > minor_length:
                     minor_length = suit_len_dict[bid_table.at[index, 'strain']]
 

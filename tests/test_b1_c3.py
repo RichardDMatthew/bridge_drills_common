@@ -157,6 +157,7 @@ class TestBook1Chapter3(unittest.TestCase):
         self.assertTrue(bid.bid == '3nt')
 
     def test_exercise_eight_open(self):
+        self.bids.reset(Positions.NORTH)
         player = Player(Positions.NORTH)
         player.next_table = 'or1'
         player.hand.suits[Suits.SPADE].cards = [6, 5, 3]
@@ -241,7 +242,6 @@ class TestBook1Chapter3(unittest.TestCase):
 
     def test_exercise_ten_response(self):
         self.bids.reset(Positions.NORTH)
-        self.bids.reset(Positions.NORTH)
         bid = open_1nt()
         self.bids.push(bid)
         player = Player(Positions.SOUTH)
@@ -257,6 +257,42 @@ class TestBook1Chapter3(unittest.TestCase):
         self.assertTrue(bid.level == 2)
         self.assertTrue(bid.strain == 'diamonds')
         self.assertTrue(bid.bid == '2d')
+
+    def test_bug_1(self):
+        self.bids.reset(Positions.NORTH)
+        bid = open_1nt()
+        self.bids.push(bid)
+        player = Player(Positions.SOUTH)
+        player.next_table = 'or2d'
+        player.hand.suits[Suits.SPADE].cards = []
+        player.hand.suits[Suits.HEART].cards = [13, 10]
+        player.hand.suits[Suits.DIAMOND].cards = [14, 11, 8, 7, 5, 2]
+        player.hand.suits[Suits.CLUB].cards = [14, 11, 8, 7, 2]
+
+        player.hand.evaluate()
+
+        bid = player.do_bid(self.bids, self.bid_table)
+        self.assertTrue(bid.level == 4)
+        self.assertTrue(bid.strain == 'clubs')
+        self.assertTrue(bid.bid == '4c')
+
+    def test_spades_2c(self):
+        self.bids.reset(Positions.NORTH)
+        bid = open_1nt()
+        self.bids.push(bid)
+        player = Player(Positions.SOUTH)
+        player.next_table = 'or2d'
+        player.hand.suits[Suits.SPADE].cards = [14, 11, 8, 7]
+        player.hand.suits[Suits.HEART].cards = [13, 10]
+        player.hand.suits[Suits.DIAMOND].cards = [5, 2]
+        player.hand.suits[Suits.CLUB].cards = [14, 11, 8, 7, 2]
+
+        player.hand.evaluate()
+
+        bid = player.do_bid(self.bids, self.bid_table)
+        self.assertTrue(bid.level == 2)
+        self.assertTrue(bid.strain == 'clubs')
+        self.assertTrue(bid.bid == '2c')
 
 
 if __name__ == '__main__':
