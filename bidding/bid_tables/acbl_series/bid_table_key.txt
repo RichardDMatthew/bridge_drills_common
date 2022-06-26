@@ -10,6 +10,7 @@ or2g - respond to 4 level preempt
 or2h - respond to 3 level preempt
 or2i - respond to 2 level preempt
 
+
 or3a - opener rebid after raised major to 2 level
 or3b - opener rebid after raised minor to 2 level
 or3c - opener rebid after raised suit to 3 level
@@ -18,11 +19,16 @@ or3e - opener rebid after new suit at the 2 level
 or3f - opener rebid after 1 no trump
 or3g - opener rebid after 2 no trump
 or3h - opener rebid after 4 major response to 1nt
-or3i - opener rebid after 3 major response to 1nt
+or3i - opener rebid after 3 major response to 1nt - invitation to slam
 or3j - opener rebid after stayman
 or3k - opener rebid after jacoby transfer
-or3l - opener rebid after jacoby sign off
-or3m - opener rebid after gerber
+or3l - opener rebid after jacoby sign off,
+or3m - opener rebid after gerber - invitation to slam
+or3n - opener rebid after texas transfer
+or3o - opener rebid after 3nt response to 1nt open
+or3p - opener rebid after 3 minor bid to 1nt open,
+or3q - opener rebid after raised nt to 2 level
+
 
 
 or4a - responder rebid after opener rebid to stayman

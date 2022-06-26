@@ -64,8 +64,8 @@
 62,or2d,2c,2.0,clubs,0,none,dist,8.0,15.0,skew,0.0,0.0,stayman,or3c,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,"8-15 distribution points, 4 spades, stayman",,,,book 1 page 72
 63,or2d,2c,2.0,clubs,0,none,dist,8.0,15.0,skew,0.0,0.0,stayman,or3c,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,"8-15 distribution points, 4 hearts, stayman",,,,book 1 page 70
 64,or2d,2s,2.0,spades,0,none,dist,0.0,7.0,skew,0.0,0.0,none,oyo,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.0,0.0,0.0,"0-7 distribution points, 5+ spades",,,,book 1 page 70
-65,or2d,2h,0.0,hearts,0,none,dist,0.0,7.0,skew,0.0,0.0,none,oyo,0.0,0.0,0.0,0.0,0.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,"0-7 distribution points, 5+ hearts",,,,book 1 page 70
-66,or2d,2d,0.0,diamonds,0,none,dist,0.0,7.0,skew,0.0,0.0,none,oyo,0.0,0.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"0-7 distribution points, 5+ diamonds",,,,book 1 page 70
+65,or2d,2h,2.0,hearts,0,none,dist,0.0,7.0,skew,0.0,0.0,none,oyo,0.0,0.0,0.0,0.0,0.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,"0-7 distribution points, 5+ hearts",,,,book 1 page 70
+66,or2d,2d,2.0,diamonds,0,none,dist,0.0,7.0,skew,0.0,0.0,none,oyo,0.0,0.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"0-7 distribution points, 5+ diamonds",,,,book 1 page 70
 67,or2d,p,0.0,none,0,none,dist,0.0,7.0,skew,0.0,0.0,none,oyo,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"0-7 distribution points, no available bid",,,,book 1 page 70
 68,or3b,3nt,3.0,no trump,2,none,dist,19.0,21.0,skew,0.0,0.0,none,or4a,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,19-21 points,book 1 page 155,,,
 69,or3b,3d,3.0,diamonds,1,diamonds,dist,16.0,18.0,skew,0.0,0.0,none,or4a,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,16-18 points,book 1 page 155,,,
