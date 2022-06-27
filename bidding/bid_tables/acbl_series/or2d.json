@@ -405,7 +405,7 @@
     "18": 0,
     "19": 0,
     "20": 0,
-    "31": 0
+    "21": 0
   },
   "d length": {
     "0": 0,
@@ -429,7 +429,7 @@
     "18": 0,
     "19": 6,
     "20": 0,
-    "31": 0
+    "21": 0
   },
   "d protected honors": {
     "0": 0,
@@ -453,7 +453,7 @@
     "18": 0,
     "19": 0,
     "20": 0,
-    "31": 0
+    "21": 0
   },
   "d high honors": {
     "0": 0,
@@ -477,7 +477,7 @@
     "18": 0,
     "19": 0,
     "20": 0,
-    "31": 0
+    "21": 0
   },
   "h length": {
     "0": 0,
@@ -501,7 +501,7 @@
     "18": 5,
     "19": 0,
     "20": 0,
-    "31": 0
+    "21": 0
   },
   "h protected honors": {
     "0": 0,
@@ -621,31 +621,31 @@
     "18": 0,
     "19": 0,
     "20": 0,
-    "31": 0
+    "21": 0
   },
   "description": {
-    "0": "16+ distribution points, explore slam, gerber",
-    "1": "16+ dist points 6 card spade suit - invitation to slam",
-    "2": "6+ dist points 6 card heart suit - invitation to slam",
-    "3": "10-15 dist points 6+ spades - texas transfer",
-    "4": "10-15 dist points 6+ hearts - texas transfer",
-    "5": "10-15 dist points 5 spades no 4 card heart suit - Jacoby transfer",
-    "6": "10-15 dist points 5 hearts no 4 card spade suit - Jacoby transfer",
-    "7": "10-15 dist points - no major suit bid bid",
-    "8": "0-15 dist points 4 spades - Stayman",
-    "9": "0-15 dist points 4 hearts - Stayman",
-    "10": "8-9 dist points 5 spades no 4 card heart suit - Jacoby",
-    "11": "8-9 dist points 5 hearts no 4 card spade suit - Jacoby",
-    "12": "8-9 dist points 4 spades - Stayman",
-    "13": "8-9 dist points 4 hearts - Stayman",
-    "14": "8-9 dist points 6 card diamond suit",
-    "15": "8-9 dist points 6 card club suit",
-    "16": "8-9 8-9 dist points - natural bid",
-    "17": "0-7 dist points 5 spades - Jacoby",
-    "18": "0-7 dist points 5 spades - Jacoby",
-    "19": "0-7 dist points sign off for 6 card diamond - extended Jacoby",
-    "20": "0-7 dist points sign off for 6 card club - extended Jacoby",
-    "21": "0-7 dist points no 5+ card major or 6 card minor, no other available bid"
+    "0": "4c: 16+ distribution points, explore slam, gerber",
+    "1": "3s: 16+ dist points 6+ card spade suit - invitation to slam",
+    "2": "3h: 16+ dist points 6+ card heart suit - invitation to slam",
+    "3": "4h: 10-15 dist points 6+ spades - texas transfer",
+    "4": "4d: 10-15 dist points 6+ hearts - texas transfer",
+    "5": "2h: 10-15 dist points 5 spades no 4 card heart suit - Jacoby transfer",
+    "6": "2d: 10-15 dist points 5 hearts no 4 card spade suit - Jacoby transfer",
+    "7": "3nt: 10-15 dist points - no major suit bid",
+    "8": "2c: 10-15 dist points 4 spades - Stayman",
+    "9": "2c: 10-15 dist points 4 hearts - Stayman",
+    "10": "2h: 8-9 dist points 5 spades no 4 card heart suit - Jacoby",
+    "11": "2d: 8-9 dist points 5 hearts no 4 card spade suit - Jacoby",
+    "12": "2c: 8-9 dist points 4 spades - Stayman",
+    "13": "2c: 8-9 dist points 4 hearts - Stayman",
+    "14": "3d: 8-9 dist points 6+ card diamond suit",
+    "15": "3c: 8-9 dist points 6+ card club suit",
+    "16": "2nt: 8-9 dist points - natural bid",
+    "17": "2h: 0-7 dist points 5+ spades - Jacoby",
+    "18": "2d: 0-7 dist points 5+ spades - Jacoby",
+    "19": "2s: 0-7 dist points sign off for 6+ card diamond - extended Jacoby",
+    "20": "2s: 0-7 dist points sign off for 6+ card club - extended Jacoby",
+    "21": "p: 0-7 dist points no 5+ card major or 6 card minor, no other available bid"
   },
   "reference": {
     "0": "book 4 page 40, book 5 page 190",

@@ -297,6 +297,24 @@ class TestBook1Chapter3(unittest.TestCase):
         self.assertTrue(bid.strain == 'no trump')
         self.assertTrue(bid.bid == '3nt')
 
+    def test_4clubs(self):
+        self.bids.reset(Positions.NORTH)
+        bid = open_1nt()
+        self.bids.push(bid)
+        player = Player(Positions.SOUTH)
+        player.next_table = 'or2d'
+        player.hand.suits[Suits.SPADE].cards = [14, 11, 8, 7]
+        player.hand.suits[Suits.HEART].cards = [13, 10]
+        player.hand.suits[Suits.DIAMOND].cards = [5, 2]
+        player.hand.suits[Suits.CLUB].cards = [14, 11, 8, 7, 2]
+
+        player.hand.evaluate()
+
+        bid = player.do_bid(self.bids, self.bid_table)
+        self.assertTrue(bid.level == 3)
+        self.assertTrue(bid.strain == 'no trump')
+        self.assertTrue(bid.bid == '3nt')
+
 
 if __name__ == '__main__':
     unittest.main()

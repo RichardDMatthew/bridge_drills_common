@@ -147,6 +147,8 @@ def or1_rules(hand, bids, bid_table, candidate_list):
                             break
 
     index = candidate_list[0]
+    if len(candidate_list) > 1:
+        print('or1', candidate_list)
     # bridge_log.debug('table id %s bid %s', bid_table.at[index, "table id"], bid_table.at[index, "bid"])
     bid = Bid(hand.position,
               table_id=bid_table.at[index, "table id"],

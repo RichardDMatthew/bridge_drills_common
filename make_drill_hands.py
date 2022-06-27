@@ -79,11 +79,11 @@ if __name__ == '__main__':
                 else:
                     practice_hands.append(hand)
                     drill_dict[bid.bid] += 1
+                    print(count_since_hand_added, drill_dict)
                     count_since_hand_added = 0
-                    print(drill_dict)
             hand_num += 1
 
-        if count_since_hand_added >= 1000000:
+        if count_since_hand_added >= 10000:
             need_more_practice_hands = False
             # print('done because of high count')
 

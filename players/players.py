@@ -1,13 +1,12 @@
 import logging
 
-import commentary
-import common
 # from bidding.bid_stack import print_bid
-from bidding.hand_data import HandData
 from bidding.bid_stack import get_right_opponent, get_partner
 
 from player import Player
-from common import Positions, Suits, get_next_player
+from bidding.bid_stack import Positions
+from cards.suit import Suits
+from players.players import get_next_player
 # from practice import Practice
 
 log = logging.getLogger('Bridge')
