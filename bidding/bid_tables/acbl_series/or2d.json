@@ -75,7 +75,7 @@
     "0": "clubs",
     "1": "spades",
     "2": "hearts",
-    "3": "no trump",
+    "3": "hearts",
     "4": "diamonds",
     "5": "hearts",
     "6": "diamonds",
@@ -93,7 +93,7 @@
     "18": "diamonds",
     "19": "spades",
     "20": "spades",
-    "21": "clubs"
+    "21": "none"
   },
   "priority": {
     "0": 4,
@@ -645,7 +645,7 @@
     "18": "0-7 dist points 5 spades - Jacoby",
     "19": "0-7 dist points sign off for 6 card diamond - extended Jacoby",
     "20": "0-7 dist points sign off for 6 card club - extended Jacoby",
-    "21": "0-7 distribution points, 5+ diamonds"
+    "21": "0-7 dist points no 5+ card major or 6 card minor, no other available bid"
   },
   "reference": {
     "0": "book 4 page 40, book 5 page 190",

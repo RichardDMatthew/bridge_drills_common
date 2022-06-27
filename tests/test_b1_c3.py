@@ -6,6 +6,9 @@ from cards.suit import Suits
 from players.player import Player
 from bidding.preload_bids import open_1nt
 
+# ------------------------------------------------------------------------------------------------------------------
+# these tests were out of the 21st century books but I modified them for stayman, jacoby, texas transfers and gerber
+# ------------------------------------------------------------------------------------------------------------------
 
 class TestBook1Chapter3(unittest.TestCase):
     bid_table = load_bid_table('../bidding/bid_tables/acbl_series/')
@@ -27,8 +30,8 @@ class TestBook1Chapter3(unittest.TestCase):
 
         bid = player.do_bid(self.bids, self.bid_table)
         self.assertTrue(bid.level == 2)
-        self.assertTrue(bid.strain == 'spades')
-        self.assertTrue(bid.bid == '2s')
+        self.assertTrue(bid.strain == 'hearts')
+        self.assertTrue(bid.bid == '2h')
 
     def test_exercise_one_2(self):
         player = Player(Positions.NORTH)
@@ -62,9 +65,9 @@ class TestBook1Chapter3(unittest.TestCase):
         self.assertTrue(player.hand.dist == 7)
 
         bid = player.do_bid(self.bids, self.bid_table)
-        self.assertTrue(bid.level == 0)
-        self.assertTrue(bid.strain == 'none')
-        self.assertTrue(bid.bid == 'p')
+        self.assertTrue(bid.level == 2)
+        self.assertTrue(bid.strain == 'spades')
+        self.assertTrue(bid.bid == '2s')
 
     def test_exercise_two_1(self):
         player = Player(Positions.NORTH)
@@ -81,8 +84,8 @@ class TestBook1Chapter3(unittest.TestCase):
 
         bid = player.do_bid(self.bids, self.bid_table)
         self.assertTrue(bid.level == 4)
-        self.assertTrue(bid.strain == 'spades')
-        self.assertTrue(bid.bid == '4s')
+        self.assertTrue(bid.strain == 'hearts')
+        self.assertTrue(bid.bid == '4h')
 
     def test_exercise_two_2(self):
         self.bids.reset(Positions.NORTH)
@@ -99,9 +102,9 @@ class TestBook1Chapter3(unittest.TestCase):
         self.assertTrue(player.hand.dist == 11)
 
         bid = player.do_bid(self.bids, self.bid_table)
-        self.assertTrue(bid.level == 3)
-        self.assertTrue(bid.strain == 'hearts')
-        self.assertTrue(bid.bid == '3h')
+        self.assertTrue(bid.level == 2)
+        self.assertTrue(bid.strain == 'diamonds')
+        self.assertTrue(bid.bid == '2d')
 
     def test_exercise_two_3(self):
         self.bids.reset(Positions.NORTH)
@@ -187,8 +190,8 @@ class TestBook1Chapter3(unittest.TestCase):
 
         bid = player.do_bid(self.bids, self.bid_table)
         self.assertTrue(bid.level == 4)
-        self.assertTrue(bid.strain == 'spades')
-        self.assertTrue(bid.bid == '4s')
+        self.assertTrue(bid.strain == 'hearts')
+        self.assertTrue(bid.bid == '4h')
 
     def test_exercise_nine_open(self):
         self.bids.reset(Positions.NORTH)
@@ -255,8 +258,8 @@ class TestBook1Chapter3(unittest.TestCase):
 
         bid = player.do_bid(self.bids, self.bid_table)
         self.assertTrue(bid.level == 2)
-        self.assertTrue(bid.strain == 'diamonds')
-        self.assertTrue(bid.bid == '2d')
+        self.assertTrue(bid.strain == 'spades')
+        self.assertTrue(bid.bid == '2s')
 
     def test_bug_1(self):
         self.bids.reset(Positions.NORTH)
@@ -290,9 +293,9 @@ class TestBook1Chapter3(unittest.TestCase):
         player.hand.evaluate()
 
         bid = player.do_bid(self.bids, self.bid_table)
-        self.assertTrue(bid.level == 2)
-        self.assertTrue(bid.strain == 'clubs')
-        self.assertTrue(bid.bid == '2c')
+        self.assertTrue(bid.level == 3)
+        self.assertTrue(bid.strain == 'no trump')
+        self.assertTrue(bid.bid == '3nt')
 
 
 if __name__ == '__main__':

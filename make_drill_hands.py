@@ -46,7 +46,7 @@ if __name__ == '__main__':
         drill_dict[row["bid"]] = 0
 
     while need_more_practice_hands:
-        print('need_more_practice_hands')
+        # print('need_more_practice_hands')
         deck.reset()
         deck.shuffle()
         hands = deck.make_4_hands()
@@ -57,14 +57,14 @@ if __name__ == '__main__':
         # using this scheme I can maximize the number of test hands I can use out of each shuffle.
         hand_num = 0
         while hand_num != 4:
-            print('while hand_num', hand_num)
+            # print('while hand_num', hand_num)
             count_since_hand_added += 1
             hand = hand_set[hand_num]
             hand.evaluate()
-            hand.print()
+            # hand.print()
             bid = bid_machine(hand, bids, opener_table)
             if bid.bid == '1nt':
-                print('if bid.bid')
+                # print('if bid.bid')
                 hand = hand_set[hand_num + 2]   # responder's hand
                 hand.evaluate()
                 bid = bid_machine(hand, bids, responder_table)
@@ -80,20 +80,20 @@ if __name__ == '__main__':
                     practice_hands.append(hand)
                     drill_dict[bid.bid] += 1
                     count_since_hand_added = 0
-
+                    print(drill_dict)
             hand_num += 1
 
         if count_since_hand_added >= 1000000:
             need_more_practice_hands = False
-            print('done because of high count')
+            # print('done because of high count')
 
         if len(full_list) == len(drill_dict):
             need_more_practice_hands = False
-            print('done because of full list')
-            print(full_list)
+            # print('done because of full list')
+            # print(full_list)
 
 
-        print(drill_dict)
+        # print(drill_dict)
     table_name = sys.argv[1]
     practice_hand_path = './bidding/practice_hands/' + table_name
 

@@ -54,136 +54,146 @@
 52,or3a,3s,3.0,spades,1,spades,dist,16.0,18.0,skew,0.0,0.0,none,or4a,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,16-18 points,book 1 page 155,,,
 53,or3a,3h,3.0,hearts,1,hearts,dist,16.0,18.0,skew,0.0,0.0,none,or4a,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,16-18 points,book 1 page 155,,,
 54,or3a,p,0.0,none,0,none,dist,13.0,15.0,skew,0.0,0.0,none,or4a,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,13-15 points,book 1 page 155,,,
-55,or2d,4c,4.0,clubs,0,none,dist,16.0,50.0,skew,0.0,0.0,gerber,or3m,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"16+ distribution points, explore slam, gerber",,,,book 5 page 190
-56,or2d,4s,4.0,spades,0,none,dist,10.0,15.0,skew,0.0,0.0,none,oyo,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,6.0,0.0,0.0,"10-15 distribution points, 6 spades",,,,book 1 page 74
-57,or2d,4h,4.0,hearts,0,none,dist,10.0,15.0,skew,0.0,0.0,none,oyo,0.0,0.0,0.0,0.0,0.0,0.0,6.0,0.0,0.0,0.0,0.0,0.0,"10-15 distribution points, 6 hearts",,,,book 1 page 74
-58,or2d,3nt,3.0,no trump,0,none,dist,10.0,15.0,skew,0.0,0.0,none,oyo,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"10-15 distribution points, no 5 or 6 card major",,,,book 1 page 74
-59,or2d,3s,3.0,spades,0,none,dist,10.0,15.0,skew,0.0,0.0,none,or3a,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.0,0.0,0.0,"10-15 distribution points, 5 spades",,,,book 1 page 74
-60,or2d,3h,3.0,hearts,0,none,dist,10.0,15.0,skew,0.0,0.0,none,or3a,0.0,0.0,0.0,0.0,0.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,"10-15 distribution points, 5 hearts",,,,book 1 page 74
-61,or2d,2nt,2.0,no trump,0,none,dist,8.0,9.0,skew,0.0,0.0,none,or3g,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,8-9 distribution points,,,,book 1 page 72
-62,or2d,2c,2.0,clubs,0,none,dist,8.0,15.0,skew,0.0,0.0,stayman,or3c,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,"8-15 distribution points, 4 spades, stayman",,,,book 1 page 72
-63,or2d,2c,2.0,clubs,0,none,dist,8.0,15.0,skew,0.0,0.0,stayman,or3c,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,"8-15 distribution points, 4 hearts, stayman",,,,book 1 page 70
-64,or2d,2s,2.0,spades,0,none,dist,0.0,7.0,skew,0.0,0.0,none,oyo,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.0,0.0,0.0,"0-7 distribution points, 5+ spades",,,,book 1 page 70
-65,or2d,2h,2.0,hearts,0,none,dist,0.0,7.0,skew,0.0,0.0,none,oyo,0.0,0.0,0.0,0.0,0.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,"0-7 distribution points, 5+ hearts",,,,book 1 page 70
-66,or2d,2d,2.0,diamonds,0,none,dist,0.0,7.0,skew,0.0,0.0,none,oyo,0.0,0.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"0-7 distribution points, 5+ diamonds",,,,book 1 page 70
-67,or2d,p,0.0,none,0,none,dist,0.0,7.0,skew,0.0,0.0,none,oyo,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"0-7 distribution points, no available bid",,,,book 1 page 70
-68,or3b,3nt,3.0,no trump,2,none,dist,19.0,21.0,skew,0.0,0.0,none,or4a,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,19-21 points,book 1 page 155,,,
-69,or3b,3d,3.0,diamonds,1,diamonds,dist,16.0,18.0,skew,0.0,0.0,none,or4a,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,16-18 points,book 1 page 155,,,
-70,or3b,3c,3.0,clubs,1,clubs,dist,16.0,18.0,skew,0.0,0.0,none,or4a,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,16-18 points,book 1 page 155,,,
-71,or3b,p,0.0,none,0,none,dist,13.0,15.0,skew,0.0,0.0,none,or4a,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,13-15 points,book 1 page 155,,,
-72,or2h,3nt,3.0,no trump,0,none,hcp,25.0,27.0,bal,4.0,,,or2h,2.0,1.0,1.0,2.0,1.0,1.0,2.0,1.0,1.0,2.0,1.0,1.0,"25 to 27 high card points, balanced hand, stoppers in 4 suits",,"values not verified, comments not verified, references not verified, link not verified",nat,
-73,or3z,2s,2.0,spades,0,none,dist,0.0,50.0,skew,0.0,0.0,,or4a,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,"4 spades, 3- hearts",,"values not verified, comments not verified, references not verified, link not verified",stayman,
-74,or3z,2h,2.0,hearts,0,none,dist,0.0,50.0,skew,0.0,0.0,,or4a,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,4 hearts,,"values not verified, comments not verified, references not verified, link not verified",stayman,
-75,or3z,2d,2.0,diamonds,0,none,dist,0.0,50.0,skew,0.0,0.0,,or4a,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"3- hearts, 3- spades",,"values not verified, comments not verified, references not verified, link not verified",stayman,
-76,or2i,3nt,3.0,no trump,0,none,hcp,25.0,27.0,bal,4.0,,,or2h,2.0,1.0,1.0,2.0,1.0,1.0,2.0,1.0,1.0,2.0,1.0,1.0,"25 to 27 high card points, balanced hand, stoppers in 4 suits",,"values not verified, comments not verified, references not verified, link not verified",nat,
-77,or3c,4s,4.0,spades,1,spades,dist,14.0,50.0,skew,0.0,0.0,none,or4a,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.0,0.0,0.0,14+ points,book 1 page 155,,,
-78,or3c,4h,4.0,hearts,1,hearts,dist,14.0,50.0,skew,0.0,0.0,none,or4a,0.0,0.0,0.0,0.0,0.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,14+ points,book 1 page 155,,,
-79,or3c,p,0.0,none,0,none,dist,13.0,13.0,skew,0.0,0.0,none,or4a,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,only 13 points,book 1 page 155,,,
-80,or2e,3nt,3.0,no trump,10.0,none,hcp,16.0,18.0,bal,0.0,0.0,none,oyo ,2.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,"16-18 high card points, balanced hand, stoppers in 3 other suits",book 1 page 107,the need for stoppers is not discussed,,
-81,or2e,2nt,2.0,no trump,8.0,none,hcp,13.0,15.0,bal,0.0,0.0,none,or3g,2.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,"13-15 high card points, balanced hand, stoppers in 3 other suits",book 1 page 107,the need for stoppers is not discussed,,
-82,or2e,2d,2.0,diamonds,8.0,spades,dummy,12.0,50.0,skew,0.0,0.0,none,or3e,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,"12+ dummy points, 3+ card support for spades, bidding lowest unbid suit to force opener rebid","book 1 bottom of page 106 and top of page 107, page 112-114","forcing bid, because jumping to 4 spades shows weakness",,
-83,or2e,2d,2.0,diamonds,8.0,hearts,dummy,12.0,50.0,skew,0.0,0.0,none,or3e,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,"12+ dummy points, 3+ card support for hearts, bidding lowest unbid suit to force opener rebid","book 1 bottom of page 106 and top of page 107, page 112-114","forcing bid, because jumping to 4 hearts shows weakness",,
-84,or2e,2d,2.0,diamonds,7.0,none,dist,12.0,50.0,skew,0.0,0.0,none,or3e,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"12+ distribution points,  no support, not balanced, no other major, bidding longest unbid suit to force opener rebid","book 1 top of page 108, page 112-114",,,
-85,or2e,2c,2.0,clubs,7.0,none,dist,12.0,50.0,skew,0.0,0.0,none,or3e,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"12+ distribution points,  no support, not balanced, no other major, bidding longest unbid suit to force opener rebid","book 1 page 105 first example, page 112",,,
-86,or2e,3s,3.0,spades,6.0,spades,dummy,10.0,11.0,skew,0.0,0.0,none,or3c,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,"10-11 dummy points, 3+ card support for spades","book 1 page 105 first example, page 112","book says biddable suit which isn't universally defined, using 5+ spades for simplicity",,
-87,or2e,3h,3.0,hearts,6.0,hearts,dummy,10.0,11.0,skew,0.0,0.0,none,or3c,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,"10-11 dummy points, 3+ card support for hearts","book 1 page 105 second example, page 112","book says biddable suit which isn't universally defined, using 5+ diamonds for simplicity",,
-88,or2e,2s,2.0,spades,5.0,none,dist,10.0,11.0,skew,0.0,0.0,none,or3e,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,"10-11 distribution points, no support for bid major, 4+ preferably 5+ spades","book 1 page 105 second example, page 112",,,
-89,or2e,2h,2.0,hearts,5.0,none,dist,10.0,11.0,skew,0.0,0.0,none,or3e,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,"10-11 distribution points, no support for bid major, 4+ preferably 5+  hearts",book 1 page 112,,,
-90,or2e,2d,2.0,diamonds,5.0,none,dist,10.0,11.0,skew,0.0,0.0,none,or3e,0.0,0.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"10-11 distribution points, no support for bid major or 4 card spade suit, 5+ diamonds",book 1 page 112,this bid was added to fill a gap in bidding system,,
-91,or2e,2c,2.0,clubs,5.0,none,dist,10.0,11.0,skew,0.0,0.0,none,or3e,5.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"10-11 distribution points, no support for bid major or 4 card spade suit, 5+ clubs",not mentioned in book,this bid was added to fill a gap in bidding system,,
-92,or2e,2d,2.0,diamonds,4.0,none,dist,10.0,11.0,skew,0.0,0.0,none,or3e,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"10-11 distribution points, no interest in majors, no 5 card minor, force new bid from opener, longest minor",not mentioned in book,,,
-93,or2e,2c,2.0,clubs,4.0,none,dist,10.0,11.0,skew,0.0,0.0,none,or3e,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"10-11 distribution points, no interest in majors, no 5 card minor, force new bid from opener, longest minor","book 1 page 101, page 112",,,
-94,or2e,2s,2.0,spades,3.0,spades,dummy,6.0,9.0,skew,0.0,0.0,none,or3a,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,"6-9 dummy points, 3+ card support for spades","book 1 page 101, page 112",,,
-95,or2e,2h,2.0,hearts,3.0,hearts,dummy,6.0,9.0,skew,0.0,0.0,none,or3a,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,"6-9 dummy points, 3+ card support for hearts","book 1 page 101, page 112",,,
-96,or2e,1s,1.0,spades,2.0,none,dist,6.0,50.0,skew,0.0,0.0,none,or3d,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,"6+ distribution points, no heart support, 4+ spades","book 1 page 101, page 112",,,
-97,or2e,1nt,1.0,no trump,1.0,none,dist,6.0,9.0,skew,0.0,0.0,none,or3f,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"6-9 distribution points, no major support or 4 card spade suit","book 1 page 96, page 112",,,
-98,or2e,p,0.0,none,0.0,none,dist,0.0,5.0,skew,0.0,0.0,none,oyo,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"0-5 distribution points, no available bids","book 1 page 96, page 112",,,
-99,,,,,,,,,,,,,,,,,,,,,,,,,,,"12+ dummy points, 3+ card support for hearts, bidding lowest unbid suit to force opener rebid",,,,
-100,or3h,2s,2.0,spades,0,none,dist,0.0,50.0,skew,0.0,0.0,,or4a,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,"4 spades, 3- hearts",,"values not verified, comments not verified, references not verified, link not verified",stayman,
-101,or3h,2h,2.0,hearts,0,none,dist,0.0,50.0,skew,0.0,0.0,,or4a,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,4 hearts,,"values not verified, comments not verified, references not verified, link not verified",stayman,
-102,or3h,2d,2.0,diamonds,0,none,dist,0.0,50.0,skew,0.0,0.0,,or4a,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"3- hearts, 3- spades",,"values not verified, comments not verified, references not verified, link not verified",stayman,
-103,or2b,3nt,3.0,no trump,hcp,none,hcp,25.0,27.0,bal,4.0,,,or2h,2.0,1.0,1.0,2.0,1.0,1.0,2.0,1.0,1.0,2.0,1.0,1.0,"25 to 27 high card points, balanced hand, stoppers in 4 suits",,"values not verified, comments not verified, references not verified, link not verified",nat,
-104,or3d,3s,3.0,spades,12,spades,dummy,19.0,21.0,skew,0.0,0.0,none,or4a,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,19-21 points 4+ card support,book 1 page 156,,,
-105,or3d,3h,3.0,hearts,12,hearts,dummy,19.0,21.0,skew,0.0,0.0,none,or4a,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,19-21 points 4+ card support,book 1 page 156,,,
-106,or3d,2s,2.0,spades,11,not spades,dist,19.0,21.0,skew,0.0,0.0,none,or4a,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,19-21 points second suit 4+ cards jump shift,book 1 page 156,,,
-107,or3d,3h,3.0,hearts,11,not hearts,dist,19.0,21.0,skew,0.0,0.0,none,or4a,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,19-21 points econd suit  4+ cards jump shift over spades-,book 1 page 156,,,
-108,or3d,2h,2.0,hearts,11,not hearts,dist,19.0,21.0,skew,0.0,0.0,none,or4a,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,19-21 points second suit  4+ cards jump shift over diamonds-,book 1 page 156,,,
-109,or3d,3nt,3.0,no trump,10,none,dist,19.0,21.0,bal,2.0,2.0,none,or4a,2.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,18-19 points long solid suit and stoppers in all unbid suits,book 1 page 156,,,
-110,or3d,4h,4.0,hearts,9,hearts,dist,19.0,21.0,skew,0.0,0.0,none,or4a,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,19-21 points rebid original suit jumping to game,book 1 page 156,,,
-111,or3d,4d,4.0,diamonds,9,diamonds,dist,19.0,21.0,skew,0.0,0.0,none,or4a,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,19-21 points rebid original suit jumping to game,book 1 page 156,,,
-112,or3d,4c,4.0,clubs,9,clubs,dist,19.0,21.0,skew,0.0,0.0,none,or4a,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,19-21 points rebid original suit jumping to game,book 1 page 156,,,
-113,or3d,3s,3.0,spades,8,spades,dummy,16.0,18.0,skew,0.0,0.0,none,or4a,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,16-18 points 4 card support,book 1 page 156,,,
-114,or3d,3h,3.0,hearts,8,hearts,dummy,16.0,18.0,skew,0.0,0.0,none,or4a,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,16-18 points 4 card support,book 1 page 156,,,
-115,or3d,2nt,2.0,no trump,7,none,hcp,18.0,19.0,bal,0.0,0.0,none,or4a,2.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,16-18 points balanced hand,book 1 page 156,,,
-116,or3d,2h,2.0,hearts,6,none,dist,16.0,18.0,skew,0.0,0.0,none,or4a,0.0,0.0,0.0,0.0,0.0,0.0,6.0,0.0,0.0,0.0,0.0,0.0,16-18 points original suit 6 hearts,book 1 page 156,,,
-117,or3d,2d,2.0,diamonds,6,none,dist,16.0,18.0,skew,0.0,0.0,none,or4a,0.0,0.0,0.0,6.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,16-18 points original suit 6 diamonds,book 1 page 156,,,
-118,or3d,2c,2.0,clubs,6,none,dist,16.0,18.0,skew,0.0,0.0,none,or4a,6.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,16-18 points original suit 6 clubs,book 1 page 156,,,
-119,or3d,1s,1.0,spades,5,not spades,dist,16.0,18.0,skew,0.0,0.0,none,or4a,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,16-18 points second suit 4+ cards,book 1 page 156,,,
-120,or3d,2h,2.0,hearts,5,not hearts,dist,16.0,18.0,skew,0.0,0.0,none,or4a,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,16-18 points second suit 4+ cards,book 1 page 156,,,
-121,or3d,1h,1.0,hearts,5,not hearts,dist,16.0,18.0,skew,0.0,0.0,none,or4a,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,16-18 points second suit 4+ cards,book 1 page 156,,,
-122,or3d,2d,2.0,diamonds,5,not diamonds,dist,16.0,18.0,skew,0.0,0.0,none,or4a,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,16-18 points second suit 4+ cards,book 1 page 156,,,
-123,or3d,2c,2.0,clubs,5,not clubs,dist,16.0,18.0,skew,0.0,0.0,none,or4a,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,16-18 points second suit 4+ cards,book 1 page 156,,,
-124,or3d,2s,2.0,spades,4,spades,dummy,13.0,15.0,skew,0.0,0.0,none,or4a,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,13-15 points 4 card support,book 1 page 156,,,
-125,or3d,2h,2.0,hearts,4,hearts,dummy,13.0,15.0,skew,0.0,0.0,none,or4a,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,13-15 points 4 card support,book 1 page 156,,,
-126,or3d,2d,2.0,diamonds,4,diamonds,dummy,13.0,15.0,skew,0.0,0.0,none,or4a,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,13-15 points 4 card support,book 1 page 156,,,
-127,or3d,1s,1.0,spades,1,not spades,dist,13.0,15.0,skew,0.0,0.0,none,or4a,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,13-15 points second suit 4+ cards,book 1 page 156,,,
-128,or3d,1h,1.0,hearts,1,not hearts,dist,13.0,15.0,skew,0.0,0.0,none,or4a,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,13-15 points second suit 4+ cards,book 1 page 156,,,
-129,or3d,2d,2.0,diamonds,1,not diamonds,dist,13.0,15.0,skew,0.0,0.0,none,or4a,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,13-15 points second suit 4+ cards,book 1 page 156,,,
-130,or3d,2c,2.0,clubs,1,not clubs,dist,13.0,15.0,skew,0.0,0.0,none,or4a,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,13-15 points second suit 4+ cards,book 1 page 156,,,
-131,or3d,2h,2.0,hearts,1,none,dist,13.0,15.0,skew,0.0,0.0,none,or4a,6.0,0.0,0.0,0.0,0.0,0.0,6.0,0.0,0.0,0.0,0.0,0.0,13-15 points original suit,book 1 page 156,,,
-132,or3d,2d,2.0,diamonds,1,none,dist,13.0,15.0,skew,0.0,0.0,none,or4a,0.0,0.0,0.0,6.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,13-15 points original suit,book 1 page 156,,,
-133,or3d,2c,2.0,clubs,1,none,dist,13.0,15.0,skew,0.0,0.0,none,or4a,6.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,13-15 points original suit,book 1 page 156,,,
-134,or3d,1nt,1.0,no trump,1,none,dist,13.0,15.0,skew,0.0,0.0,none,or4a,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,13-15 points none of the above 13-15 point options,book 1 page 156,,,
-135,oyo,p,0.0,none,0,none,dist,0.0,5.0,skew,0.0,,,none,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"0-5 distribution points, no available bids",book 1 page 96,,none,
-136,or3e,4s,4.0,spades,12.0,spades,dummy,19.0,21.0,skew,0.0,0.0,,or4a,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,19-21 points 4+ card support,book 1 page 157,,none,
-137,or3e,4h,4.0,hearts,12.0,hearts,dummy,19.0,21.0,skew,0.0,0.0,,or4a,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,19-21 points 4+ card support,book 1 page 157,,none,
-138,or3e,3s,3.0,spades,11.0,none,dist,19.0,21.0,skew,0.0,0.0,,or4a,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,19-21 points second suit 4+ cards jump shift,book 1 page 157,,none,
-139,or3e,4h,4.0,hearts,11.0,none,dist,19.0,21.0,skew,0.0,0.0,,or4a,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,19-21 points econd suit  4+ cards jump shift over spades-,book 1 page 157,,none,
-140,or3e,3h,3.0,hearts,11.0,none,dist,19.0,21.0,skew,0.0,0.0,,or4a,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,19-21 points second suit  4+ cards jump shift over diamonds-,book 1 page 157,,none,
-141,or3e,3nt,4.0,no trump,10.0,none,dist,19.0,21.0,bal,2.0,2.0,,or4a,2.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,18-19 points long solid suit and stoppers in all unbid suits,book 1 page 157,,none,
-142,or3e,4h,4.0,hearts,9.0,hearts,dist,19.0,21.0,skew,0.0,0.0,,or4a,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,19-21 points rebid original suit jumping to game,book 1 page 157,,none,
-143,or3e,5d,5.0,diamonds,9.0,diamonds,dist,19.0,21.0,skew,0.0,0.0,,or4a,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,19-21 points rebid original suit jumping to game,book 1 page 157,,none,
-144,or3e,5c,5.0,clubs,9.0,diamonds,dist,19.0,21.0,skew,0.0,0.0,,or4a,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,19-21 points rebid original suit jumping to game,book 1 page 157,,none,
-145,or3e,4s,4.0,spades,8.0,spades,dummy,16.0,18.0,skew,0.0,0.0,,or4a,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,16-18 points 4 card support,book 1 page 157,,none,
-146,or3e,4h,4.0,hearts,8.0,hearts,dummy,16.0,18.0,skew,0.0,0.0,,or4a,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,16-18 points 4 card support,book 1 page 157,,none,
-147,or3e,3nt,3.0,no trump,7.0,none,hcp,18.0,19.0,bal,0.0,0.0,,or4a,2.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,16-18 points balanced hand,book 1 page 157,,none,
-148,or3e,3h,3.0,hearts,6.0,hearts,dist,16.0,18.0,skew,0.0,0.0,,or4a,0.0,0.0,0.0,0.0,0.0,0.0,6.0,0.0,0.0,0.0,0.0,0.0,16-18 points original suit 6 hearts,book 1 page 157,,none,
-149,or3e,3d,3.0,diamonds,6.0,diamonds,dist,16.0,18.0,skew,0.0,0.0,,or4a,0.0,0.0,0.0,6.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,16-18 points original suit 6 diamonds,book 1 page 157,,none,
-150,or3e,3c,3.0,clubs,6.0,diamonds,dist,16.0,18.0,skew,0.0,0.0,,or4a,6.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,16-18 points original suit 6 clubs,book 1 page 157,,none,
-151,or3e,2s,2.0,spades,5.0,none,dist,16.0,18.0,skew,0.0,0.0,,or4a,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,16-18 points second suit 4+ cards,book 1 page 157,,none,
-152,or3e,3h,3.0,hearts,5.0,none,dist,16.0,18.0,skew,0.0,0.0,,or4a,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,16-18 points second suit 4+ cards,book 1 page 157,,none,
-153,or3e,2h,2.0,hearts,5.0,none,dist,16.0,18.0,skew,0.0,0.0,,or4a,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,16-18 points second suit 4+ cards,book 1 page 157,,none,
-154,or3e,3d,3.0,diamonds,5.0,none,dist,16.0,18.0,skew,0.0,0.0,,or4a,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,16-18 points second suit 4+ cards,book 1 page 157,,none,
-155,or3e,3c,3.0,clubs,5.0,none,dist,16.0,18.0,skew,0.0,0.0,,or4a,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,16-18 points second suit 4+ cards,book 1 page 157,,none,
-156,or3e,3s,3.0,spades,4.0,spades,dummy,13.0,15.0,skew,0.0,0.0,,or4a,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,13-15 points 4 card support,book 1 page 157,,none,
-157,or3e,3h,3.0,hearts,4.0,spades,dummy,13.0,15.0,skew,0.0,0.0,,or4a,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,13-15 points 4 card support,book 1 page 157,,none,
-158,or3e,3d,3.0,diamonds,3.0,spaded,dummy,13.0,15.0,skew,0.0,0.0,,or4a,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,13-15 points 4 card support,book 1 page 157,,none,
-159,or3e,2s,2.0,spades,3.0,none,dist,13.0,15.0,skew,0.0,0.0,,or4a,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,13-15 points second suit 4+ cards,book 1 page 157,,none,
-160,or3e,2h,2.0,hearts,3.0,none,dist,13.0,15.0,skew,0.0,0.0,,or4a,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,13-15 points second suit 4+ cards,book 1 page 157,,none,
-161,or3e,3d,3.0,diamonds,3.0,none,dist,13.0,15.0,skew,0.0,0.0,,or4a,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,13-15 points second suit 4+ cards,book 1 page 157,,none,
-162,or3e,3h,3.0,hearts,2.0,hearts,dist,13.0,15.0,skew,0.0,0.0,,or4a,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,13-15 points original suit,book 1 page 157,,none,
-163,or3e,3d,3.0,diamonds,2.0,diamonds,dist,13.0,15.0,skew,0.0,0.0,,or4a,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,13-15 points original suit,book 1 page 157,,none,
-164,or3e,3c,3.0,clubs,2.0,clubs,dist,13.0,15.0,skew,0.0,0.0,,or4a,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,13-15 points original suit,book 1 page 157,,none,
-165,or3e,2nt,2.0,no trump,1.0,none,dist,13.0,15.0,skew,0.0,0.0,,or4a,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,13-15 points none of the above 13-15 point options,book 1 page 157,,none,
-166,or3e,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-167,or2c,3nt,3.0,no trump,0,none,hcp,25.0,27.0,bal,4.0,,,or2h,2.0,1.0,1.0,2.0,1.0,1.0,2.0,1.0,1.0,2.0,1.0,1.0,"25 to 27 high card points, balanced hand, stoppers in 4 suits",,"values not verified, comments not verified, references not verified, link not verified",nat,
-168,or1,3nt,3.0,no trump,1,none,hcp,25.0,27.0,bal,0.0,0.0,none,or2a,2.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,"3nt - 25 to 27 high card points, balanced hand",,"I didn't see a mention of stoppers in the book, if you find one let me know",,"book 1 page 353, 354"
-169,or1,2c,2.0,clubs,1,none,dist,22.0,50.0,skew,0.0,0.0,preempt,or2b,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"2c - 22+ distribution points, outside of no trump point ranges",,if there is a balanced hand with 20-21 HCP but enough dist points to get to 22 then it's a 2c bid,,
-170,or1,2nt,2.0,no trump,1,none,hcp,20.0,21.0,bal,0.0,0.0,none,or2c,2.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,"2nt - 20 to 21 high card points, balanced hand",,"I didn't see a mention of stoppers in the book, if you find one let me know",,"book 1 page 353, 354"
-171,or1,1nt,1.0,no trump,1,none,hcp,15.0,17.0,bal,0.0,0.0,none,or2d,2.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,"1nt - 15 to 17 high card points, balanced hand",,,,"book 1 chapter 2 page 44, 47"
-172,or1,1s,1.0,spades,1,none,dist,13.0,21.0,any,0.0,0.0,none,or2e,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.0,0.0,0.0,"1s - 13 to 21 distribution points, at least 5 spades, spades are longest or highest ranking major of 2 suits",,,,book 1 chapter 2
-173,or1,1h,1.0,hearts,1,none,dist,13.0,21.0,skew,0.0,0.0,none,or2e,0.0,0.0,0.0,0.0,0.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,"1h - 13 to 21 distribution points, at least 5 hearts, hearts are longest suit",,,,book 1 chapter 2
-174,or1,1d,1.0,diamonds,1,none,dist,13.0,21.0,skew,0.0,0.0,none,or2f,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"1d - 13 to 21 distribution points, at least 3 diamonds",,,,book 1 chapter 2
-175,or1,1c,1.0,clubs,1,none,dist,13.0,21.0,skew,0.0,0.0,none,or2f,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"1c - 13 to 21 distribution points, at least 3 clubs",,,,book 1 chapter 2
-176,or1,4s,4.0,spades,0,none,dist,0.0,12.0,skew,1.0,0.0,preempt,or2g,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,8.0,2.0,2.0,"4s - less than 13 points, 8+ spades with two high honors",,,,book 1 page 359
-177,or1,4h,4.0,hearts,0,none,dist,0.0,12.0,skew,1.0,0.0,preempt,or2g,0.0,0.0,0.0,0.0,0.0,0.0,8.0,2.0,2.0,0.0,0.0,0.0,"4h - less than 13 points, 8+ hearts with two high honors",,,,book 1 page 359
-178,or1,4d,4.0,diamonds,0,none,dist,0.0,12.0,skew,1.0,0.0,preempt,or2g,0.0,0.0,0.0,8.0,2.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,"4d - less than 13 points, 8+ diamonds with two high honors",,,,book 1 page 359
-179,or1,4c,4.0,clubs,0,none,dist,0.0,12.0,skew,1.0,0.0,preempt,or2g,8.0,2.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"4c - less than 13 points, 8+ clubs with two high honors",,,,book 1 page 359
-180,or1,3s,3.0,spades,0,none,dist,0.0,12.0,skew,1.0,0.0,preempt,or2h,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,7.0,2.0,2.0,"3s - less than 13 points, 7 spades with two high honors",,,,book 1 page 359
-181,or1,3h,3.0,hearts,0,none,dist,0.0,12.0,skew,1.0,0.0,preempt,or2h,0.0,0.0,0.0,0.0,0.0,0.0,7.0,2.0,2.0,0.0,0.0,0.0,"3h - less than 13 points, 7 hearts with two high honors",,,,book 1 page 359
-182,or1,3d,3.0,diamonds,0,none,dist,0.0,12.0,skew,1.0,0.0,preempt,or2h,0.0,0.0,0.0,7.0,2.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,"3d - less than 13 points, 7 diamonds with two high honors",,,,book 1 page 359
-183,or1,3c,3.0,clubs,0,none,dist,0.0,12.0,skew,1.0,0.0,preempt,or2h,7.0,2.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"3c - less than 13 points, 7 clubs with two high honors",,,,book 1 page 359
-184,or1,2s,2.0,spades,0,none,dist,0.0,12.0,skew,1.0,0.0,preempt,or2i,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,6.0,2.0,2.0,"2s - less than 13 points, 6 spades with two high honors",,,,book 1 page 359
-185,or1,2h,2.0,hearts,0,none,dist,0.0,12.0,skew,1.0,0.0,preempt,or2i,0.0,0.0,0.0,0.0,0.0,0.0,6.0,2.0,2.0,0.0,0.0,0.0,"2h - less than 13 points, 6 hearts with two high honors",,,,book 1 page 359
-186,or1,2d,2.0,diamonds,0,none,dist,0.0,12.0,skew,1.0,0.0,preempt,or2i,0.0,0.0,0.0,6.0,2.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,"2d - less than 13 points, 6 diamonds with two high honors",,,,book 1 page 359
-187,or1,p,0.0,none,0,none,dist,0.0,12.0,skew,0.0,0.0,none,or1,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"p - less than 13 points, no available bid",,,,book 1 page 36
+55,or2d,4c,4.0,clubs,4.0,none,dist,16.0,50.0,skew,0.0,0.0,gerber,or3m,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"16+ distribution points, explore slam, gerber",,,,"book 4 page 40, book 5 page 190"
+56,or2d,3s,3.0,spades,4.0,none,dist,16.0,50.0,skew,0.0,0.0,none,or3i,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,6.0,0.0,0.0,16+ dist points 6 card spade suit - invitation to slam,,,,book 4 page 45 and 46
+57,or2d,3h,3.0,hearts,4.0,none,dist,16.0,50.0,skew,0.0,0.0,none,or3i,0.0,0.0,0.0,0.0,0.0,0.0,6.0,0.0,0.0,0.0,0.0,0.0,6+ dist points 6 card heart suit - invitation to slam,,,,book 4 page 45 and 46
+58,or2d,4h,4.0,hearts,3.0,none,dist,10.0,15.0,skew,0.0,0.0,texas transfer,or3n,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,6.0,0.0,0.0,10-15 dist points 6+ spades - texas transfer,,,,book 4 page 355
+59,or2d,4d,4.0,diamonds,3.0,none,dist,10.0,15.0,skew,0.0,0.0,texas transfer,or3n,0.0,0.0,0.0,0.0,0.0,0.0,6.0,0.0,0.0,0.0,0.0,0.0,10-15 dist points 6+ hearts - texas transfer,,,,book 4 page 355
+60,or2d,2h,2.0,hearts,3.0,none,dist,10.0,15.0,skew,0.0,0.0,jacoby,or3k,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.0,0.0,0.0,10-15 dist points 5 spades no 4 card heart suit - Jacoby transfer,,,,book 4 chapter 2
+61,or2d,2d,2.0,diamonds,3.0,none,dist,10.0,15.0,skew,0.0,0.0,jacoby,or3k,0.0,0.0,0.0,0.0,0.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,10-15 dist points 5 hearts no 4 card spade suit - Jacoby transfer,,,,book 4 chapter 2
+62,or2d,3nt,3.0,no trump,3.0,none,dist,10.0,15.0,skew,0.0,0.0,none,or3o,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,10-15 dist points - no major suit bid bid,,,,book 1 page 72
+63,or2d,2c,2.0,clubs,3.0,none,dist,10.0,15.0,skew,0.0,0.0,stayman,or3j,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0-15 dist points 4 spades - Stayman,,,,book 4 chapter 1
+64,or2d,2c,2.0,clubs,3.0,none,dist,10.0,15.0,skew,0.0,0.0,stayman,or3j,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0-15 dist points 4 hearts - Stayman,,,,book 4 chapter 1
+65,or2d,2h,2.0,hearts,2.0,none,dist,8.0,9.0,skew,0.0,0.0,jacoby,or3k,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.0,0.0,0.0,8-9 dist points 5 spades no 4 card heart suit - Jacoby,,,,book 4 chapter 2
+66,or2d,2d,2.0,diamonds,2.0,none,dist,8.0,9.0,skew,0.0,0.0,jacoby,or3k,0.0,0.0,0.0,0.0,0.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,8-9 dist points 5 hearts no 4 card spade suit - Jacoby,,,,book 4 chapter 2
+67,or2d,2c,2.0,clubs,2.0,none,dist,8.0,9.0,skew,0.0,0.0,stayman,or3j,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,8-9 dist points 4 spades - Stayman,,,,book 4 chapter 1
+68,or2d,2c,2.0,clubs,2.0,none,dist,8.0,9.0,skew,0.0,0.0,stayman,or3j,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,8-9 dist points 4 hearts - Stayman,,,,book 4 chapter 1
+69,or2d,3d,3.0,diamonds,2.0,none,dist,8.0,9.0,skew,0.0,0.0,none,or3p,0.0,0.0,0.0,6.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,8-9 dist points 6 card diamond suit,,,,book 4 page 45
+70,or2d,3c,3.0,clubs,2.0,none,dist,8.0,9.0,skew,0.0,0.0,none,or3p,6.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,8-9 dist points 6 card club suit,,,,book 4 page 45
+71,or2d,2nt,2.0,no trump,2.0,none,dist,8.0,9.0,skew,0.0,0.0,none,or3q,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,8-9 8-9 dist points - natural bid,,,,book 1 page 72
+72,or2d,2h,2.0,hearts,1.0,none,dist,0.0,7.0,skew,0.0,0.0,jacoby,or3k,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.0,0.0,0.0,0-7 dist points 5 spades - Jacoby,,,,book 4 chapter 2
+73,or2d,2d,2.0,diamonds,1.0,none,dist,0.0,7.0,skew,0.0,0.0,jacoby,or3k,0.0,0.0,0.0,0.0,0.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,0-7 dist points 5 spades - Jacoby,,,,book 4 chapter 2
+74,or2d,2s,2.0,spades,1.0,none,dist,0.0,7.0,skew,0.0,0.0,extended jacoby,or3k,0.0,0.0,0.0,6.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0-7 dist points sign off for 6 card diamond - extended Jacoby,,,,book 4 chapter 2
+75,or2d,2s,2.0,spades,1.0,none,dist,0.0,7.0,skew,0.0,0.0,extended jacoby,or3k,6.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0-7 dist points sign off for 6 card club - extended Jacoby,,,,book 4 chapter 2
+76,or2d,p,0.0,none,0.0,none,dist,0.0,7.0,skew,0.0,0.0,none,oyo,0.0,0.0,,,,,,0.0,0.0,0.0,0.0,,"0-7 dist points no 5+ card major or 6 card minor, no other available bid",,,,book 1 page 70
+77,,,,,,,,,,,,,,,,,0.0,0.0,0.0,0.0,0.0,,,,,0.0,,,,,
+78,or3b,3nt,3.0,no trump,2,none,dist,19.0,21.0,skew,0.0,0.0,none,or4a,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,19-21 points,book 1 page 155,,,
+79,or3b,3d,3.0,diamonds,1,diamonds,dist,16.0,18.0,skew,0.0,0.0,none,or4a,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,16-18 points,book 1 page 155,,,
+80,or3b,3c,3.0,clubs,1,clubs,dist,16.0,18.0,skew,0.0,0.0,none,or4a,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,16-18 points,book 1 page 155,,,
+81,or3b,p,0.0,none,0,none,dist,13.0,15.0,skew,0.0,0.0,none,or4a,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,13-15 points,book 1 page 155,,,
+82,or2h,3nt,3.0,no trump,0,none,hcp,25.0,27.0,bal,4.0,,,or2h,2.0,1.0,1.0,2.0,1.0,1.0,2.0,1.0,1.0,2.0,1.0,1.0,"25 to 27 high card points, balanced hand, stoppers in 4 suits",,"values not verified, comments not verified, references not verified, link not verified",nat,
+83,or3z,2s,2.0,spades,0,none,dist,0.0,50.0,skew,0.0,0.0,,or4a,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,"4 spades, 3- hearts",,"values not verified, comments not verified, references not verified, link not verified",stayman,
+84,or3z,2h,2.0,hearts,0,none,dist,0.0,50.0,skew,0.0,0.0,,or4a,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,4 hearts,,"values not verified, comments not verified, references not verified, link not verified",stayman,
+85,or3z,2d,2.0,diamonds,0,none,dist,0.0,50.0,skew,0.0,0.0,,or4a,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"3- hearts, 3- spades",,"values not verified, comments not verified, references not verified, link not verified",stayman,
+86,or2i,3nt,3.0,no trump,0,none,hcp,25.0,27.0,bal,4.0,,,or2h,2.0,1.0,1.0,2.0,1.0,1.0,2.0,1.0,1.0,2.0,1.0,1.0,"25 to 27 high card points, balanced hand, stoppers in 4 suits",,"values not verified, comments not verified, references not verified, link not verified",nat,
+87,or3c,4s,4.0,spades,1,spades,dist,14.0,50.0,skew,0.0,0.0,none,or4a,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.0,0.0,0.0,14+ points,book 1 page 155,,,
+88,or3c,4h,4.0,hearts,1,hearts,dist,14.0,50.0,skew,0.0,0.0,none,or4a,0.0,0.0,0.0,0.0,0.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,14+ points,book 1 page 155,,,
+89,or3c,p,0.0,none,0,none,dist,13.0,13.0,skew,0.0,0.0,none,or4a,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,only 13 points,book 1 page 155,,,
+90,or2e,3nt,3.0,no trump,10.0,none,hcp,16.0,18.0,bal,0.0,0.0,none,oyo ,2.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,"16-18 high card points, balanced hand, stoppers in 3 other suits",book 1 page 107,the need for stoppers is not discussed,,
+91,or2e,2nt,2.0,no trump,8.0,none,hcp,13.0,15.0,bal,0.0,0.0,none,or3g,2.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,"13-15 high card points, balanced hand, stoppers in 3 other suits",book 1 page 107,the need for stoppers is not discussed,,
+92,or2e,2d,2.0,diamonds,8.0,spades,dummy,12.0,50.0,skew,0.0,0.0,none,or3e,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,"12+ dummy points, 3+ card support for spades, bidding lowest unbid suit to force opener rebid","book 1 bottom of page 106 and top of page 107, page 112-114","forcing bid, because jumping to 4 spades shows weakness",,
+93,or2e,2d,2.0,diamonds,8.0,hearts,dummy,12.0,50.0,skew,0.0,0.0,none,or3e,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,"12+ dummy points, 3+ card support for hearts, bidding lowest unbid suit to force opener rebid","book 1 bottom of page 106 and top of page 107, page 112-114","forcing bid, because jumping to 4 hearts shows weakness",,
+94,or2e,2d,2.0,diamonds,7.0,none,dist,12.0,50.0,skew,0.0,0.0,none,or3e,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"12+ distribution points,  no support, not balanced, no other major, bidding longest unbid suit to force opener rebid","book 1 top of page 108, page 112-114",,,
+95,or2e,2c,2.0,clubs,7.0,none,dist,12.0,50.0,skew,0.0,0.0,none,or3e,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"12+ distribution points,  no support, not balanced, no other major, bidding longest unbid suit to force opener rebid","book 1 page 105 first example, page 112",,,
+96,or2e,3s,3.0,spades,6.0,spades,dummy,10.0,11.0,skew,0.0,0.0,none,or3c,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,"10-11 dummy points, 3+ card support for spades","book 1 page 105 first example, page 112","book says biddable suit which isn't universally defined, using 5+ spades for simplicity",,
+97,or2e,3h,3.0,hearts,6.0,hearts,dummy,10.0,11.0,skew,0.0,0.0,none,or3c,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,"10-11 dummy points, 3+ card support for hearts","book 1 page 105 second example, page 112","book says biddable suit which isn't universally defined, using 5+ diamonds for simplicity",,
+98,or2e,2s,2.0,spades,5.0,none,dist,10.0,11.0,skew,0.0,0.0,none,or3e,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,"10-11 distribution points, no support for bid major, 4+ preferably 5+ spades","book 1 page 105 second example, page 112",,,
+99,or2e,2h,2.0,hearts,5.0,none,dist,10.0,11.0,skew,0.0,0.0,none,or3e,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,"10-11 distribution points, no support for bid major, 4+ preferably 5+  hearts",book 1 page 112,,,
+100,or2e,2d,2.0,diamonds,5.0,none,dist,10.0,11.0,skew,0.0,0.0,none,or3e,0.0,0.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"10-11 distribution points, no support for bid major or 4 card spade suit, 5+ diamonds",book 1 page 112,this bid was added to fill a gap in bidding system,,
+101,or2e,2c,2.0,clubs,5.0,none,dist,10.0,11.0,skew,0.0,0.0,none,or3e,5.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"10-11 distribution points, no support for bid major or 4 card spade suit, 5+ clubs",not mentioned in book,this bid was added to fill a gap in bidding system,,
+102,or2e,2d,2.0,diamonds,4.0,none,dist,10.0,11.0,skew,0.0,0.0,none,or3e,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"10-11 distribution points, no interest in majors, no 5 card minor, force new bid from opener, longest minor",not mentioned in book,,,
+103,or2e,2c,2.0,clubs,4.0,none,dist,10.0,11.0,skew,0.0,0.0,none,or3e,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"10-11 distribution points, no interest in majors, no 5 card minor, force new bid from opener, longest minor","book 1 page 101, page 112",,,
+104,or2e,2s,2.0,spades,3.0,spades,dummy,6.0,9.0,skew,0.0,0.0,none,or3a,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,"6-9 dummy points, 3+ card support for spades","book 1 page 101, page 112",,,
+105,or2e,2h,2.0,hearts,3.0,hearts,dummy,6.0,9.0,skew,0.0,0.0,none,or3a,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,"6-9 dummy points, 3+ card support for hearts","book 1 page 101, page 112",,,
+106,or2e,1s,1.0,spades,2.0,none,dist,6.0,50.0,skew,0.0,0.0,none,or3d,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,"6+ distribution points, no heart support, 4+ spades","book 1 page 101, page 112",,,
+107,or2e,1nt,1.0,no trump,1.0,none,dist,6.0,9.0,skew,0.0,0.0,none,or3f,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"6-9 distribution points, no major support or 4 card spade suit","book 1 page 96, page 112",,,
+108,or2e,p,0.0,none,0.0,none,dist,0.0,5.0,skew,0.0,0.0,none,oyo,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"0-5 distribution points, no available bids","book 1 page 96, page 112",,,
+109,,,,,,,,,,,,,,,,,,,,,,,,,,,"12+ dummy points, 3+ card support for hearts, bidding lowest unbid suit to force opener rebid",,,,
+110,or3h,2s,2.0,spades,0,none,dist,0.0,50.0,skew,0.0,0.0,,or4a,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,"4 spades, 3- hearts",,"values not verified, comments not verified, references not verified, link not verified",stayman,
+111,or3h,2h,2.0,hearts,0,none,dist,0.0,50.0,skew,0.0,0.0,,or4a,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,4 hearts,,"values not verified, comments not verified, references not verified, link not verified",stayman,
+112,or3h,2d,2.0,diamonds,0,none,dist,0.0,50.0,skew,0.0,0.0,,or4a,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"3- hearts, 3- spades",,"values not verified, comments not verified, references not verified, link not verified",stayman,
+113,or2b,3nt,3.0,no trump,hcp,none,hcp,25.0,27.0,bal,4.0,,,or2h,2.0,1.0,1.0,2.0,1.0,1.0,2.0,1.0,1.0,2.0,1.0,1.0,"25 to 27 high card points, balanced hand, stoppers in 4 suits",,"values not verified, comments not verified, references not verified, link not verified",nat,
+114,or3d,3s,3.0,spades,12,spades,dummy,19.0,21.0,skew,0.0,0.0,none,or4a,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,19-21 points 4+ card support,book 1 page 156,,,
+115,or3d,3h,3.0,hearts,12,hearts,dummy,19.0,21.0,skew,0.0,0.0,none,or4a,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,19-21 points 4+ card support,book 1 page 156,,,
+116,or3d,2s,2.0,spades,11,not spades,dist,19.0,21.0,skew,0.0,0.0,none,or4a,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,19-21 points second suit 4+ cards jump shift,book 1 page 156,,,
+117,or3d,3h,3.0,hearts,11,not hearts,dist,19.0,21.0,skew,0.0,0.0,none,or4a,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,19-21 points econd suit  4+ cards jump shift over spades-,book 1 page 156,,,
+118,or3d,2h,2.0,hearts,11,not hearts,dist,19.0,21.0,skew,0.0,0.0,none,or4a,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,19-21 points second suit  4+ cards jump shift over diamonds-,book 1 page 156,,,
+119,or3d,3nt,3.0,no trump,10,none,dist,19.0,21.0,bal,2.0,2.0,none,or4a,2.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,18-19 points long solid suit and stoppers in all unbid suits,book 1 page 156,,,
+120,or3d,4h,4.0,hearts,9,hearts,dist,19.0,21.0,skew,0.0,0.0,none,or4a,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,19-21 points rebid original suit jumping to game,book 1 page 156,,,
+121,or3d,4d,4.0,diamonds,9,diamonds,dist,19.0,21.0,skew,0.0,0.0,none,or4a,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,19-21 points rebid original suit jumping to game,book 1 page 156,,,
+122,or3d,4c,4.0,clubs,9,clubs,dist,19.0,21.0,skew,0.0,0.0,none,or4a,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,19-21 points rebid original suit jumping to game,book 1 page 156,,,
+123,or3d,3s,3.0,spades,8,spades,dummy,16.0,18.0,skew,0.0,0.0,none,or4a,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,16-18 points 4 card support,book 1 page 156,,,
+124,or3d,3h,3.0,hearts,8,hearts,dummy,16.0,18.0,skew,0.0,0.0,none,or4a,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,16-18 points 4 card support,book 1 page 156,,,
+125,or3d,2nt,2.0,no trump,7,none,hcp,18.0,19.0,bal,0.0,0.0,none,or4a,2.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,16-18 points balanced hand,book 1 page 156,,,
+126,or3d,2h,2.0,hearts,6,none,dist,16.0,18.0,skew,0.0,0.0,none,or4a,0.0,0.0,0.0,0.0,0.0,0.0,6.0,0.0,0.0,0.0,0.0,0.0,16-18 points original suit 6 hearts,book 1 page 156,,,
+127,or3d,2d,2.0,diamonds,6,none,dist,16.0,18.0,skew,0.0,0.0,none,or4a,0.0,0.0,0.0,6.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,16-18 points original suit 6 diamonds,book 1 page 156,,,
+128,or3d,2c,2.0,clubs,6,none,dist,16.0,18.0,skew,0.0,0.0,none,or4a,6.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,16-18 points original suit 6 clubs,book 1 page 156,,,
+129,or3d,1s,1.0,spades,5,not spades,dist,16.0,18.0,skew,0.0,0.0,none,or4a,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,16-18 points second suit 4+ cards,book 1 page 156,,,
+130,or3d,2h,2.0,hearts,5,not hearts,dist,16.0,18.0,skew,0.0,0.0,none,or4a,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,16-18 points second suit 4+ cards,book 1 page 156,,,
+131,or3d,1h,1.0,hearts,5,not hearts,dist,16.0,18.0,skew,0.0,0.0,none,or4a,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,16-18 points second suit 4+ cards,book 1 page 156,,,
+132,or3d,2d,2.0,diamonds,5,not diamonds,dist,16.0,18.0,skew,0.0,0.0,none,or4a,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,16-18 points second suit 4+ cards,book 1 page 156,,,
+133,or3d,2c,2.0,clubs,5,not clubs,dist,16.0,18.0,skew,0.0,0.0,none,or4a,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,16-18 points second suit 4+ cards,book 1 page 156,,,
+134,or3d,2s,2.0,spades,4,spades,dummy,13.0,15.0,skew,0.0,0.0,none,or4a,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,13-15 points 4 card support,book 1 page 156,,,
+135,or3d,2h,2.0,hearts,4,hearts,dummy,13.0,15.0,skew,0.0,0.0,none,or4a,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,13-15 points 4 card support,book 1 page 156,,,
+136,or3d,2d,2.0,diamonds,4,diamonds,dummy,13.0,15.0,skew,0.0,0.0,none,or4a,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,13-15 points 4 card support,book 1 page 156,,,
+137,or3d,1s,1.0,spades,1,not spades,dist,13.0,15.0,skew,0.0,0.0,none,or4a,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,13-15 points second suit 4+ cards,book 1 page 156,,,
+138,or3d,1h,1.0,hearts,1,not hearts,dist,13.0,15.0,skew,0.0,0.0,none,or4a,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,13-15 points second suit 4+ cards,book 1 page 156,,,
+139,or3d,2d,2.0,diamonds,1,not diamonds,dist,13.0,15.0,skew,0.0,0.0,none,or4a,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,13-15 points second suit 4+ cards,book 1 page 156,,,
+140,or3d,2c,2.0,clubs,1,not clubs,dist,13.0,15.0,skew,0.0,0.0,none,or4a,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,13-15 points second suit 4+ cards,book 1 page 156,,,
+141,or3d,2h,2.0,hearts,1,none,dist,13.0,15.0,skew,0.0,0.0,none,or4a,6.0,0.0,0.0,0.0,0.0,0.0,6.0,0.0,0.0,0.0,0.0,0.0,13-15 points original suit,book 1 page 156,,,
+142,or3d,2d,2.0,diamonds,1,none,dist,13.0,15.0,skew,0.0,0.0,none,or4a,0.0,0.0,0.0,6.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,13-15 points original suit,book 1 page 156,,,
+143,or3d,2c,2.0,clubs,1,none,dist,13.0,15.0,skew,0.0,0.0,none,or4a,6.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,13-15 points original suit,book 1 page 156,,,
+144,or3d,1nt,1.0,no trump,1,none,dist,13.0,15.0,skew,0.0,0.0,none,or4a,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,13-15 points none of the above 13-15 point options,book 1 page 156,,,
+145,oyo,p,0.0,none,0,none,dist,0.0,5.0,skew,0.0,,,none,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"0-5 distribution points, no available bids",book 1 page 96,,none,
+146,or3e,4s,4.0,spades,12.0,spades,dummy,19.0,21.0,skew,0.0,0.0,,or4a,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,19-21 points 4+ card support,book 1 page 157,,none,
+147,or3e,4h,4.0,hearts,12.0,hearts,dummy,19.0,21.0,skew,0.0,0.0,,or4a,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,19-21 points 4+ card support,book 1 page 157,,none,
+148,or3e,3s,3.0,spades,11.0,none,dist,19.0,21.0,skew,0.0,0.0,,or4a,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,19-21 points second suit 4+ cards jump shift,book 1 page 157,,none,
+149,or3e,4h,4.0,hearts,11.0,none,dist,19.0,21.0,skew,0.0,0.0,,or4a,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,19-21 points econd suit  4+ cards jump shift over spades-,book 1 page 157,,none,
+150,or3e,3h,3.0,hearts,11.0,none,dist,19.0,21.0,skew,0.0,0.0,,or4a,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,19-21 points second suit  4+ cards jump shift over diamonds-,book 1 page 157,,none,
+151,or3e,3nt,4.0,no trump,10.0,none,dist,19.0,21.0,bal,2.0,2.0,,or4a,2.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,18-19 points long solid suit and stoppers in all unbid suits,book 1 page 157,,none,
+152,or3e,4h,4.0,hearts,9.0,hearts,dist,19.0,21.0,skew,0.0,0.0,,or4a,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,19-21 points rebid original suit jumping to game,book 1 page 157,,none,
+153,or3e,5d,5.0,diamonds,9.0,diamonds,dist,19.0,21.0,skew,0.0,0.0,,or4a,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,19-21 points rebid original suit jumping to game,book 1 page 157,,none,
+154,or3e,5c,5.0,clubs,9.0,diamonds,dist,19.0,21.0,skew,0.0,0.0,,or4a,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,19-21 points rebid original suit jumping to game,book 1 page 157,,none,
+155,or3e,4s,4.0,spades,8.0,spades,dummy,16.0,18.0,skew,0.0,0.0,,or4a,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,16-18 points 4 card support,book 1 page 157,,none,
+156,or3e,4h,4.0,hearts,8.0,hearts,dummy,16.0,18.0,skew,0.0,0.0,,or4a,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,16-18 points 4 card support,book 1 page 157,,none,
+157,or3e,3nt,3.0,no trump,7.0,none,hcp,18.0,19.0,bal,0.0,0.0,,or4a,2.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,16-18 points balanced hand,book 1 page 157,,none,
+158,or3e,3h,3.0,hearts,6.0,hearts,dist,16.0,18.0,skew,0.0,0.0,,or4a,0.0,0.0,0.0,0.0,0.0,0.0,6.0,0.0,0.0,0.0,0.0,0.0,16-18 points original suit 6 hearts,book 1 page 157,,none,
+159,or3e,3d,3.0,diamonds,6.0,diamonds,dist,16.0,18.0,skew,0.0,0.0,,or4a,0.0,0.0,0.0,6.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,16-18 points original suit 6 diamonds,book 1 page 157,,none,
+160,or3e,3c,3.0,clubs,6.0,diamonds,dist,16.0,18.0,skew,0.0,0.0,,or4a,6.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,16-18 points original suit 6 clubs,book 1 page 157,,none,
+161,or3e,2s,2.0,spades,5.0,none,dist,16.0,18.0,skew,0.0,0.0,,or4a,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,16-18 points second suit 4+ cards,book 1 page 157,,none,
+162,or3e,3h,3.0,hearts,5.0,none,dist,16.0,18.0,skew,0.0,0.0,,or4a,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,16-18 points second suit 4+ cards,book 1 page 157,,none,
+163,or3e,2h,2.0,hearts,5.0,none,dist,16.0,18.0,skew,0.0,0.0,,or4a,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,16-18 points second suit 4+ cards,book 1 page 157,,none,
+164,or3e,3d,3.0,diamonds,5.0,none,dist,16.0,18.0,skew,0.0,0.0,,or4a,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,16-18 points second suit 4+ cards,book 1 page 157,,none,
+165,or3e,3c,3.0,clubs,5.0,none,dist,16.0,18.0,skew,0.0,0.0,,or4a,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,16-18 points second suit 4+ cards,book 1 page 157,,none,
+166,or3e,3s,3.0,spades,4.0,spades,dummy,13.0,15.0,skew,0.0,0.0,,or4a,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,13-15 points 4 card support,book 1 page 157,,none,
+167,or3e,3h,3.0,hearts,4.0,spades,dummy,13.0,15.0,skew,0.0,0.0,,or4a,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,13-15 points 4 card support,book 1 page 157,,none,
+168,or3e,3d,3.0,diamonds,3.0,spaded,dummy,13.0,15.0,skew,0.0,0.0,,or4a,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,13-15 points 4 card support,book 1 page 157,,none,
+169,or3e,2s,2.0,spades,3.0,none,dist,13.0,15.0,skew,0.0,0.0,,or4a,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,13-15 points second suit 4+ cards,book 1 page 157,,none,
+170,or3e,2h,2.0,hearts,3.0,none,dist,13.0,15.0,skew,0.0,0.0,,or4a,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,13-15 points second suit 4+ cards,book 1 page 157,,none,
+171,or3e,3d,3.0,diamonds,3.0,none,dist,13.0,15.0,skew,0.0,0.0,,or4a,0.0,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,13-15 points second suit 4+ cards,book 1 page 157,,none,
+172,or3e,3h,3.0,hearts,2.0,hearts,dist,13.0,15.0,skew,0.0,0.0,,or4a,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,13-15 points original suit,book 1 page 157,,none,
+173,or3e,3d,3.0,diamonds,2.0,diamonds,dist,13.0,15.0,skew,0.0,0.0,,or4a,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,13-15 points original suit,book 1 page 157,,none,
+174,or3e,3c,3.0,clubs,2.0,clubs,dist,13.0,15.0,skew,0.0,0.0,,or4a,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,13-15 points original suit,book 1 page 157,,none,
+175,or3e,2nt,2.0,no trump,1.0,none,dist,13.0,15.0,skew,0.0,0.0,,or4a,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,13-15 points none of the above 13-15 point options,book 1 page 157,,none,
+176,or3e,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+177,or2c,3nt,3.0,no trump,0,none,hcp,25.0,27.0,bal,4.0,,,or2h,2.0,1.0,1.0,2.0,1.0,1.0,2.0,1.0,1.0,2.0,1.0,1.0,"25 to 27 high card points, balanced hand, stoppers in 4 suits",,"values not verified, comments not verified, references not verified, link not verified",nat,
+178,or1,3nt,3.0,no trump,1,none,hcp,25.0,27.0,bal,0.0,0.0,none,or2a,2.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,"3nt - 25 to 27 high card points, balanced hand",,"I didn't see a mention of stoppers in the book, if you find one let me know",,"book 1 page 353, 354"
+179,or1,2c,2.0,clubs,1,none,dist,22.0,50.0,skew,0.0,0.0,preempt,or2b,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"2c - 22+ distribution points, outside of no trump point ranges",,if there is a balanced hand with 20-21 HCP but enough dist points to get to 22 then it's a 2c bid,,
+180,or1,2nt,2.0,no trump,1,none,hcp,20.0,21.0,bal,0.0,0.0,none,or2c,2.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,"2nt - 20 to 21 high card points, balanced hand",,"I didn't see a mention of stoppers in the book, if you find one let me know",,"book 1 page 353, 354"
+181,or1,1nt,1.0,no trump,1,none,hcp,15.0,17.0,bal,0.0,0.0,none,or2d,2.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,2.0,0.0,0.0,"1nt - 15 to 17 high card points, balanced hand",,,,"book 1 chapter 2 page 44, 47"
+182,or1,1s,1.0,spades,1,none,dist,13.0,21.0,any,0.0,0.0,none,or2e,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.0,0.0,0.0,"1s - 13 to 21 distribution points, at least 5 spades, spades are longest or highest ranking major of 2 suits",,,,book 1 chapter 2
+183,or1,1h,1.0,hearts,1,none,dist,13.0,21.0,skew,0.0,0.0,none,or2e,0.0,0.0,0.0,0.0,0.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,"1h - 13 to 21 distribution points, at least 5 hearts, hearts are longest suit",,,,book 1 chapter 2
+184,or1,1d,1.0,diamonds,1,none,dist,13.0,21.0,skew,0.0,0.0,none,or2f,0.0,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"1d - 13 to 21 distribution points, at least 3 diamonds",,,,book 1 chapter 2
+185,or1,1c,1.0,clubs,1,none,dist,13.0,21.0,skew,0.0,0.0,none,or2f,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"1c - 13 to 21 distribution points, at least 3 clubs",,,,book 1 chapter 2
+186,or1,4s,4.0,spades,0,none,dist,0.0,12.0,skew,1.0,0.0,preempt,or2g,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,8.0,2.0,2.0,"4s - less than 13 points, 8+ spades with two high honors",,,,book 1 page 359
+187,or1,4h,4.0,hearts,0,none,dist,0.0,12.0,skew,1.0,0.0,preempt,or2g,0.0,0.0,0.0,0.0,0.0,0.0,8.0,2.0,2.0,0.0,0.0,0.0,"4h - less than 13 points, 8+ hearts with two high honors",,,,book 1 page 359
+188,or1,4d,4.0,diamonds,0,none,dist,0.0,12.0,skew,1.0,0.0,preempt,or2g,0.0,0.0,0.0,8.0,2.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,"4d - less than 13 points, 8+ diamonds with two high honors",,,,book 1 page 359
+189,or1,4c,4.0,clubs,0,none,dist,0.0,12.0,skew,1.0,0.0,preempt,or2g,8.0,2.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"4c - less than 13 points, 8+ clubs with two high honors",,,,book 1 page 359
+190,or1,3s,3.0,spades,0,none,dist,0.0,12.0,skew,1.0,0.0,preempt,or2h,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,7.0,2.0,2.0,"3s - less than 13 points, 7 spades with two high honors",,,,book 1 page 359
+191,or1,3h,3.0,hearts,0,none,dist,0.0,12.0,skew,1.0,0.0,preempt,or2h,0.0,0.0,0.0,0.0,0.0,0.0,7.0,2.0,2.0,0.0,0.0,0.0,"3h - less than 13 points, 7 hearts with two high honors",,,,book 1 page 359
+192,or1,3d,3.0,diamonds,0,none,dist,0.0,12.0,skew,1.0,0.0,preempt,or2h,0.0,0.0,0.0,7.0,2.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,"3d - less than 13 points, 7 diamonds with two high honors",,,,book 1 page 359
+193,or1,3c,3.0,clubs,0,none,dist,0.0,12.0,skew,1.0,0.0,preempt,or2h,7.0,2.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"3c - less than 13 points, 7 clubs with two high honors",,,,book 1 page 359
+194,or1,2s,2.0,spades,0,none,dist,0.0,12.0,skew,1.0,0.0,preempt,or2i,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,6.0,2.0,2.0,"2s - less than 13 points, 6 spades with two high honors",,,,book 1 page 359
+195,or1,2h,2.0,hearts,0,none,dist,0.0,12.0,skew,1.0,0.0,preempt,or2i,0.0,0.0,0.0,0.0,0.0,0.0,6.0,2.0,2.0,0.0,0.0,0.0,"2h - less than 13 points, 6 hearts with two high honors",,,,book 1 page 359
+196,or1,2d,2.0,diamonds,0,none,dist,0.0,12.0,skew,1.0,0.0,preempt,or2i,0.0,0.0,0.0,6.0,2.0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,"2d - less than 13 points, 6 diamonds with two high honors",,,,book 1 page 359
+197,or1,p,0.0,none,0,none,dist,0.0,12.0,skew,0.0,0.0,none,or1,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"p - less than 13 points, no available bid",,,,book 1 page 36
