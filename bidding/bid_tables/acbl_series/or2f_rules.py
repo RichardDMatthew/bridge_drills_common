@@ -95,7 +95,7 @@ def or2f_rules(hand, bids, bid_table, candidate_list):
     #     for index in candidate_list:
     #         if bid_table.at[index, "table id"]
     #         print(bid_table.at[index, 'bid'])
-
+    hand.print()
     index = candidate_list[0]
     # bridge_log.debug('table id %s bid %s', bid_table.at[index, "table id"], bid_table.at[index, "bid"])
     bid = Bid(hand.position,

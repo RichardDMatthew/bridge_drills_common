@@ -5,6 +5,23 @@ from bidding.bid_stack import BidStack, Positions
 import pandas as pd
 from bidding.bid_machine import bid_machine
 
+legal_bids = ['p',
+              '1c', '1d', '1h', '1s', '1nt',
+              '2c', '2d', '2h', '2s', '2nt',
+              '3c', '3d', '3h', '3s', '3nt',
+              '4c', '4d', '4h', '4s', '4nt',
+              '5c', '5d', '5h', '5s', '5nt',
+              '6c', '6d', '6h', '6s', '6nt',
+              '7c', '7d', '7h', '7s', '7nt', ]
+
+
+def legal_bid(bid):
+    if bid in legal_bids:
+        return True
+    else:
+        return False
+
+
 if __name__ == '__main__':
     # set up logging
     PRACTICE_LOG_FILE = 'practice.log'
@@ -16,13 +33,37 @@ if __name__ == '__main__':
     practice_log_file_handler.setFormatter(logging.Formatter(FORMAT))
     practice_log.addHandler(practice_log_file_handler)
     practice_log.info("Starting program")
+    print()
+    print('enter the number of the bids you want to practice')
+    print('--------------------------------------')
+    print('1. opening')
+    print('2. responding to 1 no trump opening')
+    print('3. responding to 1 major suit opening')
+    print('4. responding to 1 minor suit opening')
+    print('--------------------------------------')
+    selection = input('what would you like to practice? ')
+    print()
+    if selection == '1':
+        table_name = 'or1'
+        print('opening bid')
+    elif selection == '2':
+        table_name = 'or2d'
+        print('responding to 1 no trump opening')
+    elif selection == '3':
+        table_name = 'or2e'
+        print('responding to 1 major suit opening')
+    elif selection == '4':
+        table_name = 'or2r'
+        print('responding to 1 minor suit opening')
 
-    with open("./bidding/practice_hands/or2d", "rb") as f:  # Unpickling
+    filename = './bidding/practice_hands/' + table_name
+    with open(filename, "rb") as f:  # Unpickling
         practice_hands = pickle.load(f)
 
     dealer = Positions.NORTH
     bids = BidStack(dealer)
-    bid_table = pd.read_json('./bidding/bid_tables/acbl_series/or2d.json')
+    filename = './bidding/bid_tables/acbl_series/' + table_name + '.json'
+    bid_table = pd.read_json(filename)
     hand_count = 0
     successful_bids = 0
     percent_success = 0
@@ -39,9 +80,14 @@ if __name__ == '__main__':
         guess = input('what is your bid? ')
         if guess == 'q':
             quit()
+        while not legal_bid(guess):
+            print('legal bids are 1c, 1d, 1h, 1s, 1nt up to 7nt - q to quit')
+            guess = input('try again ')
+            if guess == 'q':
+                quit()
+
         if guess == bid.bid:
             successful_bids += 1
-
         else:
             print('\n----nope----')
             hand.print_description()

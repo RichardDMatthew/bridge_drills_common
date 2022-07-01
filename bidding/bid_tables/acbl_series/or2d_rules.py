@@ -30,19 +30,23 @@ def or2d_rules(hand, bids, bid_table, candidate_list):
                     candidate_list.remove(candidate_index)
                     break
             elif priority == 2:
+                if candidate_index - table_offset == 10 and hand.suits[Suits.HEART].length == 4:
+                    candidate_list.remove(candidate_index)
+                    break
+                elif candidate_index - table_offset == 11 and hand.suits[Suits.SPADE].length == 4:
+                    candidate_list.remove(candidate_index)
+                    break
                 # lowest candidate wins
                 if candidate_index > lowest_candidate:
                     candidate_list.remove(candidate_index)
                     break
             elif priority == 3:
-                if candidate_index - table_offset == 5:
-                    if hand.suits[Suits.HEART].length >= 4:
-                        candidate_list.remove(candidate_index)
-                        break
-                if candidate_index - table_offset == 6:
-                    if hand.suits[Suits.SPADE].length >= 4:
-                        candidate_list.remove(candidate_index)
-                        break
+                if candidate_index - table_offset == 5 and hand.suits[Suits.HEART].length == 4:
+                    candidate_list.remove(candidate_index)
+                    break
+                elif candidate_index - table_offset == 6 and hand.suits[Suits.SPADE].length == 4:
+                    candidate_list.remove(candidate_index)
+                    break
                 # lowest candidate wins
                 if candidate_index > lowest_candidate:
                     candidate_list.remove(candidate_index)

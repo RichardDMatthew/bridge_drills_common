@@ -293,11 +293,11 @@ class TestBook1Chapter3(unittest.TestCase):
         player.hand.evaluate()
 
         bid = player.do_bid(self.bids, self.bid_table)
-        self.assertTrue(bid.level == 3)
-        self.assertTrue(bid.strain == 'no trump')
-        self.assertTrue(bid.bid == '3nt')
+        self.assertTrue(bid.level == 2)
+        self.assertTrue(bid.strain == 'clubs')
+        self.assertTrue(bid.bid == '2c')
 
-    def test_4clubs(self):
+    def test_4_clubs(self):
         self.bids.reset(Positions.NORTH)
         bid = open_1nt()
         self.bids.push(bid)
@@ -311,9 +311,81 @@ class TestBook1Chapter3(unittest.TestCase):
         player.hand.evaluate()
 
         bid = player.do_bid(self.bids, self.bid_table)
-        self.assertTrue(bid.level == 3)
-        self.assertTrue(bid.strain == 'no trump')
-        self.assertTrue(bid.bid == '3nt')
+        self.assertTrue(bid.level == 2)
+        self.assertTrue(bid.strain == 'clubs')
+        self.assertTrue(bid.bid == '2c')
+
+    def test_bug_2(self):
+        self.bids.reset(Positions.NORTH)
+        bid = open_1nt()
+        self.bids.push(bid)
+        player = Player(Positions.SOUTH)
+        player.next_table = 'or2d'
+        player.hand.suits[Suits.SPADE].cards = [14, 12, 10, 9, 3]
+        player.hand.suits[Suits.HEART].cards = [11, 8, 5, 3]
+        player.hand.suits[Suits.DIAMOND].cards = [8, 7]
+        player.hand.suits[Suits.CLUB].cards = [7, 6]
+
+        player.hand.evaluate()
+
+        bid = player.do_bid(self.bids, self.bid_table)
+        self.assertTrue(bid.level == 2)
+        self.assertTrue(bid.strain == 'clubs')
+        self.assertTrue(bid.bid == '2c')
+
+    def test_bug_3(self):
+        self.bids.reset(Positions.NORTH)
+        bid = open_1nt()
+        self.bids.push(bid)
+        player = Player(Positions.SOUTH)
+        player.next_table = 'or2d'
+        player.hand.suits[Suits.SPADE].cards = [11, 8, 6, 2]
+        player.hand.suits[Suits.HEART].cards = [12, 11]
+        player.hand.suits[Suits.DIAMOND].cards = [12, 8, 3]
+        player.hand.suits[Suits.CLUB].cards = [13, 12, 10, 8]
+
+        player.hand.evaluate()
+
+        bid = player.do_bid(self.bids, self.bid_table)
+        self.assertTrue(bid.level == 2)
+        self.assertTrue(bid.strain == 'clubs')
+        self.assertTrue(bid.bid == '2c')
+
+    def test_bug_4(self):
+        self.bids.reset(Positions.NORTH)
+        bid = open_1nt()
+        self.bids.push(bid)
+        player = Player(Positions.SOUTH)
+        player.next_table = 'or2d'
+        player.hand.suits[Suits.SPADE].cards = [14, 9, 7, 6, 2]
+        player.hand.suits[Suits.HEART].cards = [13, 10, 7, 3]
+        player.hand.suits[Suits.DIAMOND].cards = [12, 8]
+        player.hand.suits[Suits.CLUB].cards = [9, 6]
+
+        player.hand.evaluate()
+
+        bid = player.do_bid(self.bids, self.bid_table)
+        self.assertTrue(bid.level == 2)
+        self.assertTrue(bid.strain == 'clubs')
+        self.assertTrue(bid.bid == '2c')
+
+    def test_bug_5(self):
+        self.bids.reset(Positions.NORTH)
+        bid = open_1nt()
+        self.bids.push(bid)
+        player = Player(Positions.SOUTH)
+        player.next_table = 'or2d'
+        player.hand.suits[Suits.SPADE].cards = [14, 10, 8, 7, 6]
+        player.hand.suits[Suits.HEART].cards = [13, 11, 10, 6]
+        player.hand.suits[Suits.DIAMOND].cards = [10, 7, 6]
+        player.hand.suits[Suits.CLUB].cards = [8]
+
+        player.hand.evaluate()
+
+        bid = player.do_bid(self.bids, self.bid_table)
+        self.assertTrue(bid.level == 2)
+        self.assertTrue(bid.strain == 'clubs')
+        self.assertTrue(bid.bid == '2c')
 
 
 if __name__ == '__main__':

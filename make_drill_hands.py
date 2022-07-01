@@ -20,11 +20,22 @@ if __name__ == '__main__':
     drill_log_file_handler.setFormatter(logging.Formatter(FORMAT))
     drill_log.addHandler(drill_log_file_handler)
 
-    table_name = sys.argv[1]
     # table_path = './bidding/bid_tables/acbl_series/' + table_name + '.json'
     bid_table = load_bid_table('./bidding/bid_tables/acbl_series/')
     # bid_table = pd.read_json(table_path)
     drill_log.info("Starting program")
+
+    qualifiers = ['none']
+    drill_name = input('what table do you want to build for? ')
+
+    if drill_name == 'or1':
+        qualifiers = ['none']
+    elif drill_name == 'or2d':
+        qualifiers = ['1nt']
+    elif drill_name == 'or2e':
+        qualifiers = ['1s', '1h']
+    elif drill_name == 'or2f':
+        qualifiers = ['1d', '1c']
 
     drill_dict = {}
     practice_hands = []
@@ -41,9 +52,11 @@ if __name__ == '__main__':
     deck = Deck()
 
     opener_table = bid_table[bid_table["table id"] == 'or1']
-    responder_table = bid_table[bid_table["table id"] == table_name]
+    responder_table = bid_table[bid_table["table id"] == drill_name]
     for index, row in responder_table.iterrows():
         drill_dict[row["bid"]] = 0
+
+    practice_hand_path = './bidding/practice_hands/' + drill_name
 
     while need_more_practice_hands:
         # print('need_more_practice_hands')
@@ -63,24 +76,36 @@ if __name__ == '__main__':
             hand.evaluate()
             # hand.print()
             bid = bid_machine(hand, bids, opener_table)
-            if bid.bid == '1nt':
-                # print('if bid.bid')
-                hand = hand_set[hand_num + 2]   # responder's hand
+            if 'none' in qualifiers:
+                process_next_hand = True
+                use_hand_num = hand_num
+            elif bid.bid in qualifiers:
+                process_next_hand = True
+                use_hand_num = hand_num + 2
+            else:
+                process_next_hand = False
+
+            if process_next_hand:
+                hand = hand_set[use_hand_num]   # responder's hand
                 hand.evaluate()
                 bid = bid_machine(hand, bids, responder_table)
                 if bid.bid in full_list:
                     hand_num += 1
                     continue
-
                 if drill_dict[bid.bid] == 1000:
                     full_list.append(bid.bid)
                     hand_num += 1
+                    with open(practice_hand_path, "wb") as f:
+                        pickle.dump(practice_hands, f)
                     continue
                 else:
                     practice_hands.append(hand)
                     drill_dict[bid.bid] += 1
                     print(count_since_hand_added, drill_dict)
                     count_since_hand_added = 0
+            else:
+                hand_num += 1
+                continue
             hand_num += 1
 
         if count_since_hand_added >= 10000:
@@ -94,8 +119,7 @@ if __name__ == '__main__':
 
 
         # print(drill_dict)
-    table_name = sys.argv[1]
-    practice_hand_path = './bidding/practice_hands/' + table_name
+    practice_hand_path = './bidding/practice_hands/' + drill_name
 
     with open(practice_hand_path, "wb") as f:
         pickle.dump(practice_hands, f)
